@@ -1,8 +1,6 @@
-import logging
+a={
+    "a":None
+}
 
-logging.basicConfig(
-    level=logging.INFO,
-
-)
-logger=logging.getLogger("satyam")
-logger.warning("Hi")
+if a:
+    print("satyam")

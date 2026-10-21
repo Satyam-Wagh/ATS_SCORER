@@ -373,6 +373,6 @@ def analyse_issue(parsed_resume:dict,text:str,skill_validation:dict,projetcs:lis
     return detected
 
 
-def generate_summary(detected_issues:list[IssueDetails]):
+def generate_summary_issue(detected_issues:list[IssueDetails]):
     #Extract the issue title to formulate the issue_summary list
     return [i.issue_title for i in detected_issues]

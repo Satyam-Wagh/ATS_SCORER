@@ -127,3 +127,161 @@ def genrate_grammer_suggestions(grammer_results:dict):
                 'Use consistent formatting throughout',
             ],))
     return recommeendations
+#generator03: location recommendations
+def generate_location_recommendations(location_detail:dict):
+    recommendations    = []
+    detected_locations = location_results.get('detected_locations', [])
+    privacy_risk       = location_results.get('privacy_risk', 'none')
+
+    if privacy_risk == 'none' or not detected_locations:
+        return recommendations
+
+    addresses = [loc for loc in detected_locations if loc.get('type') == 'address']
+    zip_codes = [loc for loc in detected_locations if loc.get('type') == 'zip']
+
+    action_items = []
+    for addr in addresses[:2]:
+        action_items.append(f"Remove full address: '{addr.get('text', '')}'")
+
+    for z in zip_codes[:2]:
+        action_items.append(f"Remove zip code: '{z.get('text', '')}'")
+    action_items.append("Keep only 'City, State' in your contact header")
+
+    if privacy_risk == 'high':
+        priority    = Priority.CRITICAL
+        impact      = 5.0
+        description = (
+            'Your resume contains detailed location information that poses a privacy risk. '
+            'Full addresses and zip codes are unnecessary and can be used to identify your location.'
+        )
+    elif privacy_risk == 'medium':
+        priority    = Priority.HIGH
+        impact      = 3.0
+        description = (
+            "Your resume contains multiple location mentions. Consider simplifying to just "
+            "'City, State' in your contact header."
+        )
+    else:
+        priority    = Priority.MEDIUM
+        impact      = 2.0
+        description = (
+            'Minor location information detected. Consider reviewing for unnecessary location details.'
+        )
+
+    recommendations.append(Recommendation(
+        title        = 'Protect Your Location Privacy',
+        description  = description,
+        priority     = priority,
+        impact_score = impact,
+        category     = 'location',
+        action_items = action_items,
+    ))
+    return recommendations
+#generator05: formatting and structure recommendations
+def generate_formating_recommendation(score:dict,section:dict):
+    recommendations=[]
+    formating_score=score.get("formating_score",0.0)
+
+    section_recommendations={  'experience': "Add a clear 'Experience' or 'Work History' section",
+        'education':  "Add an 'Education' section with your qualifications",
+        'skills':     "Add a 'Skills' section listing your technical and soft skills",
+        'summary':    "Consider adding a 'Summary' or 'Objective' section at the top",
+        'projects':   "Consider adding a 'Projects' section to showcase your work",}
+    missing_sections=[]
+    for k,v in section_recommendations.items():
+        content=section.get(k,'')
+        if not content or len(content)<20:
+            missing_sections.append((k,v))
+
+    core_missing=[(k,v) for k,v in missing_sections if k in ['experience', 'education', 'skills']]
+    optional_missing=[(k,v) for k,v in missing_sections if k in ['summary', 'projects']]
+
+    if core_missing:
+        recommendations.append(Recommendation(title        = 'Consider Adding Optional Sections',
+            description  = 'Adding a summary and projects section can strengthen your resume.',
+            priority     = Priority.LOW,
+            impact_score = 2.0,
+            category     = 'formatting',
+            action_items = [suggestion for _, suggestion in optional_missing]))
+
+    if optional_missing and formating_score<15:
+        recommendations.append(Recommendation(title        = 'Consider Adding Optional Sections',
+            description  = 'Adding a summary and projects section can strengthen your resume.',
+            priority     = Priority.LOW,
+            impact_score = 2.0,
+            category     = 'formatting',
+            action_items = [suggestion for _, suggestion in optional_missing]))
+    if formating_score<12:
+        recommendations.append(Recommendation(
+              title        = 'Improve Resume Structure',
+            description  = (
+                f'Your formatting score is {formatting_score:.1f}/20. '
+                'Better structure will improve ATS parsing and readability.'
+            ),
+            priority     = Priority.HIGH,
+            impact_score = 5.0,
+            category     = 'formatting',
+            action_items = [
+                'Use bullet points to list achievements and responsibilities',
+                'Add clear section headers (Experience, Education, Skills)',
+                'Ensure consistent formatting throughout',
+                'Use a clean, single-column layout',
+            ]
+        ))
+    return recommendations
+
+def _prioritize_recommendations(recommendations:list[Recommendation]):
+    priority_order = {
+        Priority.CRITICAL: 0,
+        Priority.HIGH:     1,
+        Priority.MEDIUM:   2,
+        Priority.LOW:      3,
+    }
+    return sorted(recommendations,key=lambda r:(priority_order[r.priority],-r.impact_score))
+
+#main function
+def genrate_recommendations(
+    skill_validation_results: dict,
+    grammar_results: dict,
+    location_results: dict,
+    score_results: dict,
+    sections: dict[str, str],):
+    all_records=[]
+
+    all_records.extend(genarate_skill_recommendation(skill_validation_results))
+    all_records.extend(generate_formating_recommendation(score_results,sections))
+    all_records.extend(generate_location_recommendations(location_detail=location_results))
+    all_records.extend(genrate_grammer_suggestions(grammar_results))
+
+    priotized=_prioritize_recommendations(all_records)
+
+    critical=[i for i in priotized if i.priority==Priority.CRITICAL]
+    high=[i for i in priotized if i.priority== Priority.HIGH]
+    medium=[i for i in priotized if i.priority==  Priority.MEDIUM]
+    low=[i for i in priotized if i.priority==  Priority.LOW]
+
+    return {
+        'all_recommendations':      priotized,
+        'critical_recommendations': critical,
+        'high_recommendations':     high,
+        'medium_recommendations':   medium,
+        'low_recommendations':      low,
+        'total_count':              len(priotized),
+       # 'estimated_improvement':    estimated_improvement,
+    }
+
+def genrate_recommendation_summary(recommendation_result:dict):
+    totle=recommendation_result.get("total_count",0)
+    critical=len(recommendation_result.get("critical_recommendations",[]))
+    high=len(recommendation_result.get("high_recommendations"))
+    medium=len(recommendation_result.get("medium_recommendations"))
+
+    if totle==0:
+        return 'Excellent! No major recommendations. Your resume is well-optimized.'
+
+    if critical>0:
+        return  f'Found {totle} recommendation(s) including {critical} critical issue(s). '
+    elif high>0:
+        return  f'Found {totle} recommendation(s) including {high} high issue(s). '
+    else:
+        return  f'Found {totle} recommendation(s)'

@@ -27,7 +27,7 @@ def detect_location_info(text:str,nlp):
 
     #method 02:street address through regx
     for i in re.finditer(STREET_ADDRESS_PATTERN,text,re.IGNORECASE):
-        location.append("text":i.group(),"type":"address"})
+        location.append({"text":i.group(),"type":"address"})
     #method 03: zip code
     for i in re.finditer(ZIP_CODE_PATTERN,text):
         location.append({"text":i.group(),"type":"zip"})
@@ -122,7 +122,7 @@ def validate_skill(skills:list[str],experience_entries:list[dict],projects:list[
     validation_per=len(validated_skills)/len(skills)
     validation_score=validation_per*15.0
     return {
-                'validated_skills':validated_skills,
+                'validated_skills':validated_skills,#[{"skill":skill,"projects":matched_project,"similarity":max_similarity}]
                 'unvalidated_skills': unvalidated_skills,
                 'validation_percentage':validation_per,
                 'skill_project_mapping':skill_project_mapping,

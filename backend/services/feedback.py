@@ -1,5 +1,5 @@
 import re
-from backend.models.schemas import IssueDetails
+from models.schemas import IssueDetails
 
 def analyse_issue(parsed_resume:dict,text:str,skill_validation:dict,projetcs:list,contact_info=None,score=dict):
     detected=[]

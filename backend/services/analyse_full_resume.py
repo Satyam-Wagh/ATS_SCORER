@@ -1,10 +1,10 @@
 from sentence_transformers import SentenceTransformer
 import spacy
-from backend.services.groq_parser import parse_resume,parse_jd
-from backend.services.scoreing_engine import validate_skill,calculate_overall_score
-from backend.services.feedback import analyse_issue,generate_summary_issue
-from backend.services.jd_matcher import compare_resume_with_jd
-from backend.utils.file_utils import get_default_grammar_results,get_default_location_results
+from services.groq_parser import parse_resume,parse_jd
+from services.scoreing_engine import validate_skill,calculate_overall_score
+from services.feedback import analyse_issue,generate_summary_issue
+from services.jd_matcher import compare_resume_with_jd
+from utils.file_utils import get_default_grammar_results,get_default_location_results
 
 
 def analyse_resume(resume_text:str,nlp:spacy.language,embedder:SentenceTransformer,job_descripation:None):
@@ -88,7 +88,7 @@ def analyse_resume(resume_text:str,nlp:spacy.language,embedder:SentenceTransform
             jd_comparission_result['missing_keywords']
             if jd_comparission_result else []
         ),
-        "strengths": _generate_strengths(parsed_resume, skills, projects, action_verbs, skill_validation, scores),
+        "strengths": _generate_strengths(parsed_resume, skills, projects, action_verb, skill_validation_detail, scores),
         "interpretation":    scores.get('overall_interpretation', ''),
         "skill_validation_details": skill_validation_detail,
         "experience_months": experience_month,

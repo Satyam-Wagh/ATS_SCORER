@@ -1,13 +1,9 @@
 import os
 from pathlib import Path
+from dotenv import load_dotenv,find_dotenv
 
-try:
-    from dotenv import load_dotenv
-    _ENV_PATH=Path(__file__).resolve().parents[2]/'.env'
-    load_dotenv(_ENV_PATH)
-except ImportError:
-    pass
-
+_ENV_PATH=find_dotenv()
+load_dotenv(dotenv_path=_ENV_PATH)
 #api meta data
 APP_TITLE="ATS RESUME ANYLYZER"
 APP_DESCRIPATION="anylise the resume using nlp+ml"
@@ -33,10 +29,10 @@ SUPPORTED_MIME_TYPES={
 SUPPORTED_EXTENTIONS={".pdf"}#we deals with only pdf
 
 SPACY_MODEL_PRIMARY="en_core_web_md" #better accuracy
-SPACY_MODEL_SECONDARY='"en_core_web_sm' 
+SPACY_MODEL_SECONDARY="en_core_web_sm" 
 SENTENCE_TRANSFORMER_MODEL = os.getenv("SENTENCE_TRANSFORMER_MODEL", "all-MiniLM-L6-v2")
 
 JD_SEMENTIC_WEIGHT=0.4
 JD_KEYWORD_WEIGHT=0.6
 
-#GROQ_API_KEY=os.getenv("GROQ_API_KEY","")
+GROQ_API_KEY=os.getenv("groq_api_key","")

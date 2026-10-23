@@ -1,0 +1,135 @@
+{
+  "name": "Satyam Anil Wagh",
+  "email": "satyamwagh2006@gamil.com",
+  "phone": "9373410917",
+  "linkedin": null,
+  "github": null,
+  "professional_summary": "",
+  "skills": [
+    "Python",
+    "JavaScript",
+    "HTML5",
+    "CSS3",
+    "Bootstrap",
+    "FastApi",
+    "sklearn",
+    "Flask",
+    "Streamlit",
+    "Git",
+    "GitHub",
+    "Docker",
+    "English (fluent)"
+  ],
+  "experience": [],
+  "education": [
+    {
+      "degree": "B.E. Computer Engineering",
+      "institution": "TSSM's Bhivarabai Sawant College of Engineering and Research, Pune",
+      "year": ""
+    },
+    {
+      "degree": "HSC",
+      "institution": "D.M.J.C. Ale Tal:Junnar Dist:Pune",
+      "year": ""
+    },
+    {
+      "degree": "SSC",
+      "institution": "D.M.H Ale Tal:Junnar Dist:Pune",
+      "year": ""
+    }
+  ],
+  "certifications": [
+    "AI Fundamentals: Foundations for Understanding AI – IBM",
+    "AI Literacy – IBM"
+  ],
+  "projects": [
+    {
+      "title": "ATS_SCORER",
+      "description": "Developed a full‑stack web application that extracts skills and experience from uploaded resumes (PDF/DOCX) and evaluates job description alignment using semantic similarity. Engineered the backend API using FastAPI and spaCy to handle asynchronous file parsing, and implemented Sentence Transformers (all‑MiniLM‑L6‑v2) for advanced NLP matching. Integrated the Groq API (Llama 3) to generate dynamic, LLM‑driven optimization feedback and structural suggestions for users. Implemented secure user authentication (Email/Password & Google OAuth) and database persistence using Supabase to save analysis histories. Designed an intuitive frontend dashboard with Streamlit and added custom PDF report exporting via WeasyPrint and Jinja2 templating.",
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Python",
+        "FastApi",
+        "sklearn",
+        "Git",
+        "GitHub",
+        "spaCy",
+        "Sentence Transformers",
+        "all-MiniLM-L6-v2",
+        "Groq API",
+        "Llama 3",
+        "Supabase",
+        "Streamlit",
+        "WeasyPrint",
+        "Jinja2"
+      ]
+    },
+    {
+      "title": "CreaditWise_Loan_System",
+      "description": "Engineered an end‑to‑end intelligent loan approval system that automates the verification process by predicting applicant risk to eliminate human bias and accelerate processing speeds. Developed and trained a binary classification model using Logistic Regression over historical customer data, achieving optimized predictions for loan eligibility. Built a scalable backend API engine using Python and Flask to handle live HTTP scoring requests and load pickled machine learning artifacts. Optimized system latency by executing preprocessing steps (Label Encoding and One‑Hot Encoding) on the client side using asynchronous JavaScript, effectively minimizing server overhead.",
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Flask",
+        "Python",
+        "Git",
+        "GitHub",
+        "Logistic Regression",
+        "Machine Learning",
+        "Label Encoding",
+        "One‑Hot Encoding"
+      ]
+    }
+  ],
+  "action_verbs": [
+    "Developed",
+    "Engineered",
+    "Implemented",
+    "Integrated",
+    "Designed",
+    "Built",
+    "Optimized",
+    "Trained",
+    "Handled",
+    "Loaded",
+    "Executed"
+  ],
+  "keywords": [
+    "resume parsing",
+    "skill extraction",
+    "experience extraction",
+    "semantic similarity",
+    "job description alignment",
+    "NLP",
+    "FastAPI",
+    "spaCy",
+    "Sentence Transformers",
+    "all-MiniLM-L6-v2",
+    "LLM",
+    "Groq API",
+    "Llama 3",
+    "authentication",
+    "Google OAuth",
+    "Supabase",
+    "Streamlit",
+    "WeasyPrint",
+    "Jinja2",
+    "loan approval",
+    "risk prediction",
+    "Logistic Regression",
+    "machine learning",
+    "Flask",
+    "Docker",
+    "Git",
+    "GitHub",
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "Python",
+    "sklearn",
+    "Bootstrap"
+  ]
+}

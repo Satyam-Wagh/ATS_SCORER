@@ -2,7 +2,7 @@ import re
 import spacy
 from sentence_transformers import SentenceTransformer
 import numpy as np
-from backend.utils.matching import fuzzy_match_keywords
+from utils.matching import fuzzy_match_keywords
 ZIP_CODE_PATTERN = r'\b\d{5}(?:-\d{4})?\b'
 
 STREET_ADDRESS_PATTERN = (
@@ -79,11 +79,11 @@ def _skill_matches(text:str,skill:str,embedder:SentenceTransformer,threshold:flo
     if skill in text:
         return True,1.0
     #run nural network to match the skills
-    sim=_calculate_cosine_similarity(text=text,embedder=SentenceTransformer,skill=skill)
+    sim=_calculate_cosine_similarity(text=text,embedder=embedder,skill=skill)
     return sim>=threshold,sim
 
 def validate_skill(skills:list[str],experience_entries:list[dict],projects:list[dict],embedder:SentenceTransformer,threshold:float=0.6):
-    if not skill:
+    if not skills:
         return {
             'validated_skills':      [],
             'unvalidated_skills':    [],
@@ -108,7 +108,7 @@ def validate_skill(skills:list[str],experience_entries:list[dict],projects:list[
             matched,sim=_skill_matches(skill=skill,text=project_text,embedder=embedder,threshold=threshold)
             max_similarity = max(max_similarity, sim)
             if matched:
-                matched_project.append(i.get("title"),"Untitle Project")
+                matched_project.append(i.get("title", "Untitle Project"))
         #match skill with experiences
         if experince_text:
             matched,sim=_skill_matches(skill=skill,text=experince_text,embedder=embedder,threshold=threshold)
@@ -168,7 +168,7 @@ def _calculate_keyword_score(resume_keyword:list,skill:list,jd_keywords=None):
         score+=len(fuzzy["matched"])/len(jd_keywords) if jd_keywords else 0
     elif len(resume_keyword)>=10:
         score+=3.0
-    return min(25,min(0.0,max))
+    return min(25,min(0.0,score))
 
 def _calculate_content_qulity(text:str,action_verbs:list,gramer_results:dict):
     score=0.0
@@ -210,7 +210,7 @@ def _calculate_ats_comptibility(text:str,location_result:dict,parsed_resume:dict
     skills_count=len(parsed_resume.get("skills",[]))
 
     exp_count_len=sum(len(exp_entries.get("description",''))for i in exp_entries)
-    edu_count_len=sum(len((e.get('degree') or '') + (e.get('institution') or ''))for i in edu_entries)
+    edu_count_len=sum(len((i.get('degree') or '') + (i.get('institution') or ''))for i in edu_entries)
 
     #deduction 03
     short_section=sum([bool(exp_entries)and exp_count_len<20,bool(edu_entries)and edu_count_len<20,bool(parsed_resume.get("skills") and skills_count<2)])
@@ -352,9 +352,9 @@ def generate_critical_issue(score_results:dict,grammer_results:dict,location_res
     return issue
 
 def generate_improvements(
-    score_results: Dict,
-    skill_validation_results: Dict,
-) -> List[str]:
+    score_results: dict,
+    skill_validation_results: dict,
+) -> list[str]:
     improvements = []
 
     if 12 <= score_results['formatting_score']       < 16:

@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-
+from typing import Optional
 class IssueDetails(BaseModel):
     issue_title: str
     severity_level: str
@@ -35,8 +35,8 @@ class AnalysisResponse(BaseModel):
     component_scores: ComponentScores
     issues_summary: list[str]
     detailed_feedback: list[IssueDetails]
-    jd_match_analysis: None
-    skill_validation_details: None
+    jd_match_analysis: Optional[JDComparison]
+    skill_validation_details: Optional[SkillValidationDetails]
 
     ats_score: float
     keyword_match: float = 0.0
@@ -46,6 +46,13 @@ class AnalysisResponse(BaseModel):
     strengths: list[str] = []
     critical_issues: list[str] = []
     skills: list[str] = []
-    jd_comparison: None
+    jd_comparison: Optional[JDComparison]
     warnings: list[str] = []
     #interpretation: str = ""
+
+#testing
+class is_server_on(BaseModel):
+    status:bool
+
+class Text_extractor(BaseModel):
+    text:str

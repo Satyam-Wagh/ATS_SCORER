@@ -5,7 +5,7 @@ class TextExtractionError(Exception):
 class FileUploadError(Exception):
     pass
 
-def get_default_grammar_results() -> Dict:
+def get_default_grammar_results():
     return {
         'total_errors':         0,
         'critical_errors':      [],
@@ -18,7 +18,7 @@ def get_default_grammar_results() -> Dict:
         '_note': 'Grammar checking unavailable.'
     }
 
-def get_default_location_results() -> Dict:
+def get_default_location_results():
     return {
         'location_found':     False,
         'detected_locations': [],

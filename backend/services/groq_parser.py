@@ -1,14 +1,15 @@
 from groq import Groq
 import json
-import os
+from core.config import GROQ_API_KEY
 import re
-GROQ_MODEL="llama-3.1-8b-instant"
+
+GROQ_MODEL="openai/gpt-oss-120b"
 
 _client=None
 def _get_client():
     global _client
     if _client is None:
-        api_key=os.getenv("groq_api_key")
+        api_key=GROQ_API_KEY
         if api_key is None:
             raise ValueError("Groq api key is not define")
         _client=Groq(api_key=api_key)

@@ -1,0 +1,106 @@
+{
+  "ATS_score": 61.4,
+  "ats_score": 61.4,
+  "component_scores": {
+    "formatting": 11.5,
+    "keywords": 0,
+    "content": 19,
+    "skill_validation": 15,
+    "ats_compatibility": 13
+  },
+  "issues_summary": [
+    "Most Skills Lack Supporting Evidence",
+    "Missing Professional Summary"
+  ],
+  "detailed_feedback": [
+    {
+      "issue_title": "Most Skills Lack Supporting Evidence",
+      "severity_level": "Moderate",
+      "ats_impact": "High",
+      "explanation": "69% of your listed skills (9 out of 13) are not backed by any mention in your projects or experience sections. Recruiters and ATS systems cross-reference skills against actual work to verify credibility.",
+      "where_it_appears": "These skills have no supporting context: HTML5,CSS3,Bootstrap,FastApi,sklearn,Git,GitHub,Docker",
+      "how_to_fix": "For each skill in your Skills section, ensure it appears at least once in a project description or experience bullet point. Describe how and where you used that technology.",
+      "action_items": [
+        "Mention HTML5 in your Experince or project section ",
+        "Mention CSS3 in your Experince or project section ",
+        "Mention Bootstrap in your Experince or project section ",
+        "Mention FastApi in your Experince or project section ",
+        "Mention sklearn in your Experince or project section ",
+        "Remove the skills which is not demonstrate with any project or experience."
+      ],
+      "example_improvement": "Your skill 'HTML5' has no supporting evidence.\n\nFix: Add to a project or experience bullet:\n'Built a data pipeline using HTML5 that processed 10K records daily, reducing manual effort by 60%.'"
+    },
+    {
+      "issue_title": "Missing Professional Summary",
+      "severity_level": "Low",
+      "ats_impact": "Low",
+      "explanation": "Your resume does not include a Professional Summary or Objective section at the top. While not required, a 2-3 line summary helps recruiters quickly understand your profile and target role.",
+      "where_it_appears": "Top of resume — below contact info",
+      "how_to_fix": "Add a 2-3 sentence summary highlighting your experience level, key skills, and career focus. Tailor it to the job you're applying for.",
+      "action_items": [
+        "Add a 'PROFESSIONAL SUMMARY' or 'OBJECTIVE' section at the top of your resume",
+        "Write 2–3 sentences: who you are, your key skills, and what role you seek",
+        "Mention your years of experience or education level upfront",
+        "Tailor this section for each job application — reference the specific role",
+        "Keep it under 60 words — recruiters spend only 6 seconds on first scan"
+      ],
+      "example_improvement": "Add:\nPROFESSIONAL SUMMARY\nFull-stack developer with 2+ years of experience building scalable web applications using React, Node.js, and AWS. Passionate about clean architecture and performance optimization."
+    }
+  ],
+  "jd_match_analysis": null,
+  "jd_comparison": null,
+  "skills": [
+    "Python",
+    "JavaScript",
+    "HTML5",
+    "CSS3",
+    "Bootstrap",
+    "FastApi",
+    "sklearn",
+    "Flask",
+    "Streamlit",
+    "Git",
+    "GitHub",
+    "Docker",
+    "English (fluent)"
+  ],
+  "matched_keywords": [
+    "resume parsing",
+    "skill extraction",
+    "experience extraction",
+    "semantic similarity",
+    "job description alignment",
+    "NLP",
+    "FastAPI",
+    "spaCy",
+    "Sentence Transformers",
+    "all-MiniLM-L6-v2",
+    "LLM",
+    "Groq API",
+    "Llama 3",
+    "authentication",
+    "Google OAuth",
+    "Supabase",
+    "Streamlit",
+    "WeasyPrint",
+    "Jinja2",
+    "loan approval"
+  ],
+  "missing_keywords": [],
+  "strengths": [
+    "Includes a Projects section showcasing applied skills",
+    "Education section is present",
+    "Clear Skills section with listed technologies",
+    "Strong skill set — 13 skills detected",
+    "Uses 11 strong action verbs in bullet points"
+  ],
+  "interpretation": "Fair. Your resume needs some improvements to be fully ATS-compatible.",
+  "skill_validation_details": {
+    "validated": [],
+    "unvalidated": [],
+    "total": 0,
+    "validated_count": 0,
+    "validation_pct": 0
+  },
+  "experience_months": 0
+}

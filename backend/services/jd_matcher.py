@@ -1,5 +1,5 @@
 #we skip analyze_skills_gap
-from backend.utils.matching import fuzzy_match_keywords,normalize_skill
+from utils.matching import fuzzy_match_keywords,normalize_skill
 import numpy as np
 from sentence_transformers import SentenceTransformer
 import spacy
@@ -15,7 +15,7 @@ def Identify_match_miss_keywords(resume_keywords,jd_keywords):
 
 def calculate_match_percentage(
     match_keywords:list,
-    jd_keywords: List[str],
+    jd_keywords: list[str],
     semantic_similarity: float,
 ) -> float:
     if not jd_keywords:

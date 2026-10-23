@@ -1,7 +1,7 @@
 import io
-from backend.core.config import MAX_FILE_SIZE,MAX_FILE_SIZE_MB,SUPPORTED_MIME_TYPES
+from core.config import MAX_FILE_SIZE,MAX_FILE_SIZE_MB,SUPPORTED_MIME_TYPES
 import pdfplumber
-from backend.utils.file_utils import FileParsingError,TextExtractionError
+from utils.file_utils import FileParsingError,TextExtractionError
 import pdfplumber as pdf
 from pdfminer.high_level import extract_text
 def validateFile(file):

@@ -1,6 +1,6 @@
 from rapidfuzz import fuzz
 
-SKILL_ALIASES: Dict[str, str] = {
+SKILL_ALIASES: dict[str, str] = {
     'reactjs':       'react',
     'react.js':      'react',
     'angularjs':     'angular',

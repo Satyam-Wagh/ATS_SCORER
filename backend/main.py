@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+
 from api.routes import router
 from core.config import APP_TITLE,APP_DESCRIPATION,APP_VERSION,SENTENCE_TRANSFORMER_MODEL,SPACY_MODEL_PRIMARY,SPACY_MODEL_SECONDARY
 from contextlib import asynccontextmanager

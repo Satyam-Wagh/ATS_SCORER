@@ -1,7 +1,8 @@
 from fastapi import FastAPI
 
+from fastapi.middleware.cors import CORSMiddleware
 from api.routes import router
-from core.config import APP_TITLE,APP_DESCRIPATION,APP_VERSION,SENTENCE_TRANSFORMER_MODEL,SPACY_MODEL_PRIMARY,SPACY_MODEL_SECONDARY
+from core.config import APP_TITLE,APP_DESCRIPATION,APP_VERSION,SENTENCE_TRANSFORMER_MODEL,SPACY_MODEL_PRIMARY,SPACY_MODEL_SECONDARY,ALLOWED_ORIGINS
 from contextlib import asynccontextmanager
 from pathlib import Path
 BASE_DIR=Path(__file__).parent
@@ -27,6 +28,13 @@ async def lifespan(app:FastAPI):
 app=FastAPI(title=APP_TITLE,description=APP_DESCRIPATION,version=APP_VERSION,
           lifespan=lifespan
            )
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=ALLOWED_ORIGINS,
+    allow_methods=["*"],
+    allow_headers=["*"]
+)
 app.include_router(router=router)
 
 @app.get("/")

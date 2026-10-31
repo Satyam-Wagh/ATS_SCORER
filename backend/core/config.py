@@ -8,11 +8,9 @@ load_dotenv(dotenv_path=_ENV_PATH)
 APP_TITLE="ATS RESUME ANYLYZER"
 APP_DESCRIPATION="anylise the resume using nlp+ml"
 APP_VERSION="1.0.0"
-
+BASE_URL=os.getenv("main_url","")
 ALLOWED_ORIGINS=[
-    "http://localhost:5173",
-    "http://localhost:3000",
-    "http://127.0.0.1:5173"
+    "https://satyam-ats-system.streamlit.app/"
 ]
 
 #file

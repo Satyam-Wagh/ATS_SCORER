@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 import time
-
+from backend.core.config import BASE_URL
 def show_anylisis_result(data):
     st.markdown("---")
     st.success("Anylisis Completed")
@@ -113,7 +113,7 @@ def intrepretation(string):
     st.info(string)
     st.markdown("---")
 def send_request_resume_file_only(resume_file,job_description=None):
-    url="http://127.0.0.1:8000/api/v1/analyse_resume"
+    url=BASE_URL+"/api/v1/analyse_resume"
     files={"resume_file":(resume_file.name,resume_file.getvalue(),resume_file.type),"jd":job_description}
     
     responce=requests.post(url=url,files=files)
@@ -149,6 +149,7 @@ if st.button("🚀 Analyze Your Resume", use_container_width=True,type="primary"
                 print(data)
             except requests.exceptions.ConnectionError:
                 st.error("Cheak your internet connection...")
+                
             if "detail" not in data:
                 #line 1
                 show_anylisis_result(data=data)

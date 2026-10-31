@@ -32,7 +32,7 @@ with rigth:
 """)
 st.markdown("---")
 st.markdown("# 🔑 Common ATS Keywords by Industry")
-tab1,tab2,tab3=st.tabs(["💻 Tech","🎨 Creative",s"💼 Business"])
+tab1,tab2,tab3=st.tabs(["💻 Tech","🎨 Creative","💼 Business"])
 with tab1:
     st.markdown("""
 ### Software Development:

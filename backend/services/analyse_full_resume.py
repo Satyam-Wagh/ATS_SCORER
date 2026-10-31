@@ -74,6 +74,8 @@ def analyse_resume(resume_text:str,nlp:spacy.language,embedder:SentenceTransform
             "content":          scores['content_score'],
             "skill_validation": scores['skill_validation_score'],
             "ats_compatibility": scores['ats_compatibility_score'],
+            "penalties":scores["penalties"],
+            "bonuses":scores["bonuses"]
         },
         "issues_summary":    issue_summary,
         "detailed_feedback": detail_feedback,

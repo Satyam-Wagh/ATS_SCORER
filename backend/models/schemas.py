@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from typing import Optional
+from typing import Optional,Dict
 class IssueDetails(BaseModel):
     issue_title: str
     severity_level: str
@@ -16,7 +16,9 @@ class ComponentScores(BaseModel):
     content: float
     skill_validation: float
     ats_compatibility: float
-
+    penalties: Dict[str, float] = {}
+    bonuses:Dict[str, float] = {}
+    
 class JDComparison(BaseModel):
     match_percentage: float
     semantic_similarity: float
@@ -48,11 +50,7 @@ class AnalysisResponse(BaseModel):
     skills: list[str] = []
     jd_comparison: Optional[JDComparison]
     warnings: list[str] = []
-    #interpretation: str = ""
+    interpretation: str = ""
+    experience_months:int=0
 
 #testing
-class is_server_on(BaseModel):
-    status:bool
-
-class Text_extractor(BaseModel):
-    text:str

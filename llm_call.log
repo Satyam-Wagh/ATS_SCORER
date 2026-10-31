@@ -1,0 +1,539 @@
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:sentence_transformers.base.model:No device provided, using cpu
+INFO:sentence_transformers.base.model:Loading SentenceTransformer model from c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\models\fine-tune.
+INFO:groq_parser:--- START RESUME PARSING WORKFLOW ---
+INFO:groq_parser:Initializing Groq client singleton...
+INFO:groq_parser:Groq client initialized successfully.
+INFO:groq_parser:Dispatching API call to model: openai/gpt-oss-120b
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:groq_parser:Executing Primary Inference Pass (Attempt #1)...
+INFO:groq_parser:Attempting regex JSON extraction block...
+INFO:groq_parser:JSON successfully deserialised.
+INFO:groq_parser:Primary pass successful. Commencing schema evaluation...
+INFO:groq_parser:Beginning execution schema constraint checks...
+INFO:groq_parser:Schema integrity checks successfully completed.
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:sentence_transformers.base.model:No device provided, using cpu
+INFO:sentence_transformers.base.model:Loading SentenceTransformer model from c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\models\fine-tune.
+INFO:groq_parser:--- START RESUME PARSING WORKFLOW ---
+INFO:groq_parser:Initializing Groq client singleton...
+INFO:groq_parser:Groq client initialized successfully.
+INFO:groq_parser:Dispatching API call to model: openai/gpt-oss-120b
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:groq_parser:Executing Primary Inference Pass (Attempt #1)...
+INFO:groq_parser:Attempting regex JSON extraction block...
+INFO:groq_parser:JSON successfully deserialised.
+INFO:groq_parser:Primary pass successful. Commencing schema evaluation...
+INFO:groq_parser:Beginning execution schema constraint checks...
+INFO:groq_parser:Schema integrity checks successfully completed.
+INFO:groq_parser:final result {'name': 'Abhilasha Wagh', 'email': 'waghabhilasha2024@gmail.com', 'phone': '+91 8999445209', 'linkedin': None, 'github': None, 'professional_summary': '  Hands on experience on Automation testing using Selenium WebDriver with Core Java.\n  Extensively worked with Cucumber (BDD) framework along with Junit.\n  Good knowledge of SDLC, STLC, Defect Life Cycle.\n  Expertise in Black Box Testing- Smoke, Sanity, Regression testing.\n\nInvolving in Creating, Reviewing & Executing Test cases.\n\n \n  Working in Agile- Scrum model.\n  Having experience of using a JIRA as project management tool.\n  Participate in Scrum ceremonies.\n  Using Eclipse IDE to write selenium test scripts with Java.', 'skills': ['Manual Testing', 'Automation Testing', 'Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'JUnit', 'Eclipse IDE', 'JIRA', 'Maven', 'GIT', 'GitHub', 'Agile Scrum', 'SDLC', 'STLC', 'Defect Life Cycle', 'Black Box Testing', 'Smoke Testing', 'Sanity Testing', 'Regression Testing', 'Page Object Model', 'Test Case Design', 'Bug Reporting', 'Test Automation'], 'experience': [{'job_title': 'Automation Tester', 'company': 'Cinetrix Infotech Pvt. Ltd.', 'start_date': 'Feb 2020', 'end_date': 'September 2022', 'duration_months': 31, 'description': 'Automated scenarios using Selenium WebDriver and executed them with JUnit. Used Page Object Model and Cucumber framework to organize automation code. Attended daily stand\u2011up, scrum review and retrospective meetings. Created, executed and maintained test cases. Generated logs for debugging. Executed smoke tests and generated reports using Cucumber. Identified bugs during black\u2011box testing, raised them in JIRA and coordinated with developers for resolution. Generated and analyzed test reports.'}, {'job_title': 'Senior Software Engineer', 'company': 'Expleo India Infosystems Pvt. Ltd.', 'start_date': 'November 2022', 'end_date': 'Present', 'duration_months': 47, 'description': 'Analyzed business requirements to understand application flow. Enhanced framework to improve execution speed and performed framework upgrades and design, including function development and reusable/customized functions. Automated new test cases, regression suites and defect reporting. Designed and executed test cases for web application functionality. Utilized Page Object Model design pattern. Reported daily status and bugs. Participated in daily stand\u2011up meetings, QA automation testing and Go\u2011Live automation testing.'}], 'education': [{'degree': 'Bachelor of Engineering (BE)', 'institution': 'Smt. Kashibai Navale College of Engineering, Sinhgad Institute, Pune', 'year': '2017'}, {'degree': 'Diploma', 'institution': 'Cusrow Wadia Institute of Technology, Pune', 'year': '2014'}, {'degree': 'SSC', 'institution': 'Subhash Vidya Mandir, Junnar', 'year': '2011'}], 'certifications': [], 'projects': [{'title': 'E-commerce Web Application', 'description': 'Online shopping website where users can search, view, zoom, add to wishlist or basket, purchase products, and write/view product reviews.', 'technologies': ['Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'JUnit', 'Eclipse IDE', 'GIT', 'JIRA', 'Maven']}, {'title': 'AWC (Active Workspace)', 'description': 'Testing application for Active Workspace, a PLM solution integrating Siemens Teamcenter with CAD tools for semiconductor, display, web and solar product manufacturing.', 'technologies': ['Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'JUnit', 'Eclipse IDE', 'GIT', 'JIRA', 'Maven']}], 'action_verbs': ['Automate', 'Used', 'Attend', 'Create', 'Generate', 'Identify', 'Analyze', 'Involve', 'Design', 'Report', 'Participate', 'Work'], 'keywords': ['Automation testing', 'Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'JUnit', 'SDLC', 'STLC', 'Defect Life Cycle', 'Black Box Testing', 'Smoke Testing', 'Sanity Testing', 'Regression Testing', 'Agile Scrum', 'JIRA', 'Eclipse IDE', 'Maven', 'GIT', 'GitHub', 'Page Object Model', 'Test cases', 'Bug reporting', 'E\u2011commerce', 'Online shopping', 'Active Workspace', 'PLM', 'Teamcenter', 'CAD integration', 'Semiconductor manufacturing', 'Manual testing', 'Test automation']}
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:sentence_transformers.base.model:No device provided, using cpu
+INFO:sentence_transformers.base.model:Loading SentenceTransformer model from c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\models\fine-tune.
+INFO:analysis_route_logger:--- NEW RESUME ANALYSIS REQUEST RECEIVED ---
+INFO:analysis_route_logger:Target Filename: Abhilasha_Wagh_+4.2YearsExp_Automation Tester.pdf | Content-Type: application/pdf
+INFO:analysis_route_logger:Job Description Provided: No (Length: 0 chars)
+INFO:analysis_route_logger:Reading raw upload payload from stream...
+INFO:analysis_route_logger:Executing extraction pipeline wrapper 'resume_parser' for: Abhilasha_Wagh_+4.2YearsExp_Automation Tester.pdf
+INFO:analysis_route_logger:Document parser execution completed successfully. Extracted text length: 5124 chars
+INFO:analysis_route_logger:Retrieving localized app-state NLP pipeline and vector embedding instances...
+INFO:analysis_route_logger:Dispatching text payload to core logic handler: 'analyse_resume'...
+INFO:groq_parser:--- START RESUME PARSING WORKFLOW ---
+INFO:groq_parser:Initializing Groq client singleton...
+INFO:groq_parser:Groq client initialized successfully.
+INFO:groq_parser:Dispatching API call to model: openai/gpt-oss-120b
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:groq_parser:Executing Primary Inference Pass (Attempt #1)...
+INFO:groq_parser:Attempting regex JSON extraction block...
+INFO:groq_parser:JSON successfully deserialised.
+INFO:groq_parser:Primary pass successful. Commencing schema evaluation...
+INFO:groq_parser:Beginning execution schema constraint checks...
+INFO:groq_parser:Schema integrity checks successfully completed.
+INFO:groq_parser:final result {'name': 'Abhilasha Wagh', 'email': 'waghabhilasha2024@gmail.com', 'phone': '+91 8999445209', 'linkedin': None, 'github': None, 'professional_summary': '  Hands on experience on Automation testing using Selenium WebDriver with Core Java.\xa0\n  Extensively worked with Cucumber (BDD) framework along with Junit.\xa0\n  Good knowledge of SDLC, STLC, Defect Life Cycle.\xa0\n  Expertise in Black Box Testing- Smoke, Sanity, Regression testing.\xa0\n\nInvolving in Creating, Reviewing & Executing Test cases.\xa0\n\n \n  Working in Agile- Scrum model.\xa0\n  Having experience of using a JIRA as project management tool.\xa0\n  Participate in Scrum ceremonies.\xa0\n  Using Eclipse IDE to write selenium test scripts with Java.\xa0', 'skills': ['Manual Testing', 'Automation Testing', 'Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'Junit', 'Eclipse IDE', 'JIRA', 'Maven', 'GIT', 'GitHub', 'Agile Scrum', 'SDLC', 'STLC', 'Defect Life Cycle', 'Black Box Testing', 'Smoke Testing', 'Sanity Testing', 'Regression Testing', 'Page Object Model', 'Test Case Design', 'Bug Tracking', 'Continuous Integration'], 'experience': [{'job_title': 'Automation Tester', 'company': 'Cinetrix Infotech Pvt. Ltd.', 'start_date': 'February 2020', 'end_date': 'September 2022', 'duration_months': 31, 'description': 'Automated scenarios using Selenium WebDriver and Junit; used Page Object Model and Cucumber framework; attended daily stand\u2011up meetings and scrum review and retrospective meetings; created, executed and maintained test cases; generated logs for debugging; executed smoke tests and generated reports using Cucumber; identified bugs during black\u2011box testing, raised them in Jira and resolved them with developers; generated and analyzed test reports.'}, {'job_title': 'Senior Software Engineer', 'company': 'Expleo India Infosystems Pvt. Ltd.', 'start_date': 'November 2022', 'end_date': 'Present', 'duration_months': 47, 'description': 'Analyzed business requirements to understand application flow; involved in framework enhancement to improve execution speed; performed framework upgradation and design, function development, building reusable and customized functions; automated new test cases, regression testing and defect reporting; designed and executed test cases for web application functionality; applied Page Object Model design pattern; performed daily status and bug reporting; participated in daily stand\u2011up meetings; conducted QA automation testing and Go\u2011Live automation testing.'}], 'education': [{'degree': 'Bachelor of Engineering (BE)', 'institution': 'Smt. Kashibai Navale College of Engineering, Sinhgad Institute, Pune', 'year': '2017'}, {'degree': 'Diploma', 'institution': 'Cusrow Wadia Institute of Technology, Pune', 'year': '2014'}, {'degree': 'SSC', 'institution': 'Subhash Vidya Mandir, Junnar', 'year': '2011'}], 'certifications': [], 'projects': [{'title': 'E-commerce Web Application', 'description': 'Online shopping website where users can search, view, zoom, add to wishlist or basket, purchase products, and write reviews for various categories such as fashion, baby products, home accessories, and garden furniture.', 'technologies': ['Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'Junit', 'Eclipse IDE', 'GIT', 'JIRA', 'Maven']}, {'title': 'AWC (Active Workspace)', 'description': 'Testing application for semiconductor, flat panel display, web and solar product manufacturing; involves customized Siemens Teamcenter integration with CAD tools and PLM software to manage product lifecycle.', 'technologies': ['Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'Junit', 'Eclipse IDE', 'GIT', 'JIRA', 'Maven']}], 'action_verbs': ['Automated', 'Used', 'Attended', 'Created', 'Executed', 'Maintained', 'Generated', 'Identified', 'Raised', 'Resolved', 'Analyzed', 'Involved', 'Enhanced', 'Upgraded', 'Designed', 'Built', 'Developed', 'Reported', 'Participated', 'Conducted'], 'keywords': ['Automation testing', 'Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'Junit', 'SDLC', 'STLC', 'Defect Life Cycle', 'Black Box Testing', 'Smoke testing', 'Sanity testing', 'Regression testing', 'Agile Scrum', 'JIRA', 'Eclipse IDE', 'Maven', 'GIT', 'GitHub', 'Page Object Model', 'Test case design', 'Bug tracking', 'Continuous Integration', 'Software testing', 'Test automation', 'Framework development']}
+ERROR:analysis_route_logger:Critical exception raised during NLP/Embedding evaluation layer: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\api\routes.py", line 62, in analyse_resumes
+    result = analyse_resume(resume_text=text, nlp=nlp, embedder=embedder, job_descripation=jd)
+  File "c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\services\analyse_full_resume.py", line 29, in analyse_resume
+    skill_validations=validate_skill(skills=skills,embedder=embedder,experience_entries=parsed_resume.get("experience",[]),projects=projects)
+  File "c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\services\scoreing_engine.py", line 96, in validate_skill
+    experience_entries+=f"{i.get('job_title','')} {i.get('company','')} {i.get('description','')}"
+                           ^^^^^
+AttributeError: 'str' object has no attribute 'get'
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:sentence_transformers.base.model:No device provided, using cpu
+INFO:sentence_transformers.base.model:Loading SentenceTransformer model from c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\models\fine-tune.
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:sentence_transformers.base.model:No device provided, using cpu
+INFO:sentence_transformers.base.model:Loading SentenceTransformer model from c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\models\fine-tune.
+INFO:analysis_route_logger:--- NEW RESUME ANALYSIS REQUEST RECEIVED ---
+INFO:analysis_route_logger:Target Filename: Abhilasha_Wagh_+4.2YearsExp_Automation Tester.pdf | Content-Type: application/pdf
+INFO:analysis_route_logger:Job Description Provided: No (Length: 0 chars)
+INFO:analysis_route_logger:Reading raw upload payload from stream...
+INFO:analysis_route_logger:Executing extraction pipeline wrapper 'resume_parser' for: Abhilasha_Wagh_+4.2YearsExp_Automation Tester.pdf
+INFO:analysis_route_logger:Document parser execution completed successfully. Extracted text length: 5124 chars
+INFO:analysis_route_logger:Retrieving localized app-state NLP pipeline and vector embedding instances...
+INFO:analysis_route_logger:Dispatching text payload to core logic handler: 'analyse_resume'...
+INFO:groq_parser:--- START RESUME PARSING WORKFLOW ---
+INFO:groq_parser:Initializing Groq client singleton...
+INFO:groq_parser:Groq client initialized successfully.
+INFO:groq_parser:Dispatching API call to model: openai/gpt-oss-120b
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:groq_parser:Executing Primary Inference Pass (Attempt #1)...
+INFO:groq_parser:Attempting regex JSON extraction block...
+ERROR:groq_parser:JSON parsing structural error: Content is syntactically invalid code. Error: Expecting property name enclosed in double quotes: line 5 column 3 (char 103)
+WARNING:groq_parser:Primary pass failed to return parseable JSON. Engaging Self-Correction Pipeline (Attempt #2)...
+INFO:groq_parser:Dispatching API call to model: openai/gpt-oss-120b
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:groq_parser:Attempting regex JSON extraction block...
+INFO:groq_parser:JSON successfully deserialised.
+INFO:groq_parser:second attempt is sucessfully completed. result is passing to schema validation
+INFO:groq_parser:Beginning execution schema constraint checks...
+INFO:groq_parser:Schema integrity checks successfully completed.
+INFO:groq_parser:final result {'name': 'Abhilasha Wagh', 'email': 'waghabhilasha2024@gmail.com', 'phone': '+91 8999445209', 'linkedin': None, 'github': None, 'professional_summary': '  Hands on experience on Automation testing using Selenium WebDriver with Core Java.\n  Extensively worked with Cucumber (BDD) framework along with Junit.\n  Good knowledge of SDLC, STLC, Defect Life Cycle.\n  Expertise in Black Box Testing- Smoke, Sanity, Regression testing.\n\nInvolving in Creating, Reviewing & Executing Test cases.\n\n \n  Working in Agile- Scrum model.\n  Having experience of using a JIRA as project management tool.\n  Participate in Scrum ceremonies.\n  Using Eclipse IDE to write selenium test scripts with Java.', 'skills': ['Manual testing', 'Automation testing', 'Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'Junit', 'Eclipse IDE', 'JIRA', 'Maven', 'GIT', 'GitHub', 'Agile Scrum', 'SDLC', 'STLC', 'Defect Life Cycle', 'Black Box Testing', 'Smoke testing', 'Sanity testing', 'Regression testing', 'Test case creation', 'Test case execution', 'Bug tracking', 'Page Object Model', 'Continuous integration concepts', 'Project management tools'], 'experience': [{'job_title': 'Automation Tester', 'company': 'Cinetrix Infotech Pvt. Ltd.', 'start_date': 'Feb 2020', 'end_date': 'September 2022', 'duration_months': 31, 'description': 'Automated scenarios using Selenium WebDriver and Junit; utilized Page Object Model and Cucumber framework; attended daily stand\u2011up and Scrum meetings; created, executed and maintained test cases; generated logs for debugging; executed smoke tests and generated reports with Cucumber; identified bugs, raised them in JIRA and coordinated with developers for resolution; generated and analyzed test reports.'}, {'job_title': 'Senior Software Engineer', 'company': 'Expleo India Infosystems Pvt. Ltd.', 'start_date': 'November 2022', 'end_date': 'Present', 'duration_months': 47, 'description': 'Analyzed business requirements and application flow; enhanced and upgraded automation framework to improve execution speed; developed reusable functions and automated new test cases, regression suites, and defect reporting; designed and executed test cases for web application functionality; applied Page Object Model design pattern; performed daily status and bug reporting; participated in daily stand\u2011up meetings; conducted QA automation and Go\u2011Live automation testing.'}], 'education': [{'degree': 'Bachelor of Engineering (BE)', 'institution': 'Smt. Kashibai Navale College of Engineering, Sinhgad Institute, Pune', 'year': '2017'}, {'degree': 'Diploma', 'institution': 'Cusrow Wadia Institute of Technology, Pune', 'year': '2014'}, {'degree': 'SSC', 'institution': 'Subhash Vidya Mandir, Junnar', 'year': '2011'}], 'certifications': [], 'projects': [{'title': 'E-commerce Web Application', 'description': 'Online shopping website where users can search, view, zoom, add to wishlist or basket, purchase products, and write reviews for various categories such as fashion, baby products, home accessories, and garden furniture.', 'technologies': ['Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'Junit', 'Eclipse IDE', 'GIT', 'JIRA', 'Maven']}, {'title': 'AWC (Active Workspace)', 'description': 'Testing application for AWC (Applied Materials) that integrates Siemens Teamcenter with CAD tools, supporting semiconductor, flat panel display, web and solar product manufacturing lifecycle management.', 'technologies': ['Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'Junit', 'Eclipse IDE', 'GIT', 'JIRA', 'Maven']}], 'action_verbs': ['Automated', 'Used', 'Attending', 'Creating', 'executing', 'maintaining', 'Generating', 'Identified', 'raised', 'resolved', 'Analyze', 'Analyzed', 'Involve', 'Involvement', 'Designing', 'execution', 'Experience', 'Reporting', 'Participated'], 'keywords': ['Automation testing', 'Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'Junit', 'SDLC', 'STLC', 'Defect Life Cycle', 'Black Box Testing', 'Smoke testing', 'Sanity testing', 'Regression testing', 'Test case creation', 'Test case execution', 'Agile Scrum', 'JIRA', 'Eclipse IDE', 'Maven', 'GIT', 'Page Object Model', 'Continuous integration', 'Bug tracking', 'Framework enhancement', 'Software testing', 'Web application testing']}
+ERROR:analysis_route_logger:Critical exception raised during NLP/Embedding evaluation layer: 'list' object has no attribute 'get'
+Traceback (most recent call last):
+  File "c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\api\routes.py", line 62, in analyse_resumes
+    result = analyse_resume(resume_text=text, nlp=nlp, embedder=embedder, job_descripation=jd)
+  File "c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\services\analyse_full_resume.py", line 44, in analyse_resume
+    scores=calculate_overall_score(text=resume_text,parsed_resume=parsed_resume,skills=skills,keywords=keywords,action_verbs=action_verb,skill_validation_results=skill_validations,grammar_results=grammer_results,location_results=location_results,jd_keywords=jd_keywords,experience_months=experience_month)
+  File "c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\services\scoreing_engine.py", line 243, in calculate_overall_score
+    ats_complitibility_score=_calculate_ats_comptibility(text=text,location_result=location_results,parsed_resume=parsed_resume)
+  File "c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\services\scoreing_engine.py", line 213, in _calculate_ats_comptibility
+    exp_count_len=sum(len(exp_entries.get("description",''))for i in exp_entries)
+  File "c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\services\scoreing_engine.py", line 213, in <genexpr>
+    exp_count_len=sum(len(exp_entries.get("description",''))for i in exp_entries)
+                          ^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'get'
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:sentence_transformers.base.model:No device provided, using cpu
+INFO:sentence_transformers.base.model:Loading SentenceTransformer model from c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\models\fine-tune.
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:sentence_transformers.base.model:No device provided, using cpu
+INFO:sentence_transformers.base.model:Loading SentenceTransformer model from c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\models\fine-tune.
+INFO:analysis_route_logger:--- NEW RESUME ANALYSIS REQUEST RECEIVED ---
+INFO:analysis_route_logger:Target Filename: Abhilasha_Wagh_+4.2YearsExp_Automation Tester.pdf | Content-Type: application/pdf
+INFO:analysis_route_logger:Job Description Provided: No (Length: 0 chars)
+INFO:analysis_route_logger:Reading raw upload payload from stream...
+INFO:analysis_route_logger:Executing extraction pipeline wrapper 'resume_parser' for: Abhilasha_Wagh_+4.2YearsExp_Automation Tester.pdf
+INFO:analysis_route_logger:Document parser execution completed successfully. Extracted text length: 5124 chars
+INFO:analysis_route_logger:Retrieving localized app-state NLP pipeline and vector embedding instances...
+INFO:analysis_route_logger:Dispatching text payload to core logic handler: 'analyse_resume'...
+INFO:groq_parser:--- START RESUME PARSING WORKFLOW ---
+INFO:groq_parser:Initializing Groq client singleton...
+INFO:groq_parser:Groq client initialized successfully.
+INFO:groq_parser:Dispatching API call to model: openai/gpt-oss-120b
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:groq_parser:Executing Primary Inference Pass (Attempt #1)...
+INFO:groq_parser:Attempting regex JSON extraction block...
+INFO:groq_parser:JSON successfully deserialised.
+INFO:groq_parser:Primary pass successful. Commencing schema evaluation...
+INFO:groq_parser:Beginning execution schema constraint checks...
+INFO:groq_parser:Schema integrity checks successfully completed.
+INFO:groq_parser:final result {'name': 'Abhilasha Wagh', 'email': 'waghabhilasha2024@gmail.com', 'phone': '+91 8999445209', 'linkedin': None, 'github': None, 'professional_summary': 'To join with a progressive and growing organization where my skills can realize and my knowledge can escalate for the benefit of the organization as well as for personal development.', 'skills': ['Manual Testing', 'Automation Testing', 'Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'Junit', 'Eclipse IDE', 'JIRA', 'Maven', 'GIT', 'GitHub', 'Agile Scrum', 'SDLC', 'STLC', 'Defect Life Cycle', 'Black Box Testing', 'Smoke Testing', 'Sanity Testing', 'Regression Testing', 'Page Object Model', 'Test Case Design', 'Bug Tracking', 'Project Management', 'Continuous Integration'], 'experience': [{'job_title': 'Automation Tester', 'company': 'Cinetrix Infotech Pvt. Ltd.', 'start_date': 'Feb 2020', 'end_date': 'September 2022', 'duration_months': 31, 'description': 'Created, reviewed, and executed manual and automated test cases for a web\u2011based e\u2011commerce application. Automated scenarios using Selenium WebDriver with Java, implemented Page Object Model and Cucumber BDD framework, generated test reports, identified and logged defects in JIRA, and participated in daily Scrum ceremonies.'}, {'job_title': 'Senior Software Engineer', 'company': 'Expleo India Infosystems Pvt. Ltd.', 'start_date': 'November 2022', 'end_date': 'Present', 'duration_months': 47, 'description': 'Analyzed business requirements for the AWC (Active Workspace) application, enhanced and upgraded the automation framework, designed and executed automated test cases using Selenium WebDriver, Core Java, Cucumber BDD and Junit, applied Page Object Model, reported daily status and defects, and performed QA automation and Go\u2011Live testing.'}], 'education': [{'degree': 'Bachelor of Engineering (BE)', 'institution': 'Smt. Kashibai Navale College of Engineering, Sinhgad Institute, Pune', 'year': '2017'}, {'degree': 'Diploma', 'institution': 'Cusrow Wadia Institute of Technology, Pune', 'year': '2014'}, {'degree': 'SSC', 'institution': 'Subhash Vidya Mandir, Junnar', 'year': '2011'}], 'certifications': [], 'projects': [{'title': 'E\u2011commerce Web Application', 'description': 'Online shopping website allowing users to search, view, add to wishlist, and purchase products across multiple categories. Implemented automated test suites covering functional, smoke, sanity, and regression scenarios.', 'technologies': ['Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'Junit', 'Eclipse IDE', 'GIT', 'JIRA', 'Maven']}, {'title': 'AWC (Active Workspace)', 'description': 'Testing platform for Applied Materials that integrates Siemens Teamcenter with CAD tools for semiconductor and display product lifecycle management. Developed and maintained automation scripts, enhanced framework performance, and executed functional and regression tests.', 'technologies': ['Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'Junit', 'Eclipse IDE', 'GIT', 'JIRA', 'Maven']}], 'action_verbs': ['Automated', 'Used', 'Attended', 'Created', 'Generated', 'Executed', 'Identified', 'Analyzed', 'Enhanced', 'Designed', 'Developed', 'Reported', 'Participated', 'Reviewed', 'Maintained'], 'keywords': ['Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'Junit', 'Eclipse IDE', 'GIT', 'GitHub', 'JIRA', 'Maven', 'Agile Scrum', 'SDLC', 'STLC', 'Defect Life Cycle', 'Black Box Testing', 'Smoke Testing', 'Sanity Testing', 'Regression Testing', 'Page Object Model', 'Test Automation', 'Manual Testing', 'Software Testing', 'Automation Framework', 'Bug Tracking', 'Project Management', 'Continuous Integration', 'Functional Testing', 'Test Case Design', 'Scrum ceremonies', 'Daily stand\u2011up']}
+ERROR:analysis_route_logger:Critical exception raised during NLP/Embedding evaluation layer: unsupported operand type(s) for +: 'dict' and 'str'
+Traceback (most recent call last):
+  File "c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\api\routes.py", line 62, in analyse_resumes
+    result = analyse_resume(resume_text=text, nlp=nlp, embedder=embedder, job_descripation=jd)
+  File "c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\services\analyse_full_resume.py", line 46, in analyse_resume
+    detail_feedback=analyse_issue(parsed_resume=parsed_resume,text=resume_text,skill_validation=skill_validations,projetcs=projects,contact_info=contact_info,score=scores)
+  File "c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\services\feedback.py", line 16, in analyse_issue
+    experience_text+=i+'\n'
+                     ~^~~~~
+TypeError: unsupported operand type(s) for +: 'dict' and 'str'
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:sentence_transformers.base.model:No device provided, using cpu
+INFO:sentence_transformers.base.model:Loading SentenceTransformer model from c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\models\fine-tune.
+INFO:analysis_route_logger:--- NEW RESUME ANALYSIS REQUEST RECEIVED ---
+INFO:analysis_route_logger:Target Filename: Abhilasha_Wagh_+4.2YearsExp_Automation Tester.pdf | Content-Type: application/pdf
+INFO:analysis_route_logger:Job Description Provided: No (Length: 0 chars)
+INFO:analysis_route_logger:Reading raw upload payload from stream...
+INFO:analysis_route_logger:Executing extraction pipeline wrapper 'resume_parser' for: Abhilasha_Wagh_+4.2YearsExp_Automation Tester.pdf
+INFO:analysis_route_logger:Document parser execution completed successfully. Extracted text length: 5124 chars
+INFO:analysis_route_logger:Retrieving localized app-state NLP pipeline and vector embedding instances...
+INFO:analysis_route_logger:Dispatching text payload to core logic handler: 'analyse_resume'...
+INFO:groq_parser:--- START RESUME PARSING WORKFLOW ---
+INFO:groq_parser:Initializing Groq client singleton...
+INFO:groq_parser:Groq client initialized successfully.
+INFO:groq_parser:Dispatching API call to model: openai/gpt-oss-120b
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:groq_parser:Executing Primary Inference Pass (Attempt #1)...
+INFO:groq_parser:Attempting regex JSON extraction block...
+INFO:groq_parser:JSON successfully deserialised.
+INFO:groq_parser:Primary pass successful. Commencing schema evaluation...
+INFO:groq_parser:Beginning execution schema constraint checks...
+INFO:groq_parser:Schema integrity checks successfully completed.
+INFO:groq_parser:final result {'name': 'Abhilasha Wagh', 'email': 'waghabhilasha2024@gmail.com', 'phone': '+91 8999445209', 'linkedin': None, 'github': None, 'professional_summary': 'To join with a progressive and growing organization where my skills can realize and my knowledge can escalate for the benefit of the organization as well as for personal development.', 'skills': ['Manual Testing', 'Automation Testing', 'Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'JUnit', 'Eclipse IDE', 'JIRA', 'Maven', 'GIT', 'GitHub', 'Agile Scrum', 'SDLC', 'STLC', 'Defect Life Cycle', 'Black Box Testing', 'Smoke Testing', 'Sanity Testing', 'Regression Testing', 'Page Object Model', 'Test case creation', 'Test execution', 'Bug reporting', 'Test reporting', 'Project management'], 'experience': [{'job_title': 'Automation Tester', 'company': 'Cinetrix Infotech Pvt. Ltd.', 'start_date': 'Feb 2020', 'end_date': 'September 2022', 'duration_months': 31, 'description': 'Automate scenarios using Selenium WebDriver and execute them using Junit. Used Page object model and Cucumber Framework concept to organize the automation code. Attending daily stand up meetings and scrum review and retrospective meetings. Creating, executing and maintaining test cases. Generating logs for debugging purpose. Execution of smoke test and generating the report using Cucumber. Identified bugs during the black box testing, raised them in Jira and resolved them with developers within the timeframe. Generate & Analyze reports.'}, {'job_title': 'Senior Software Engineer', 'company': 'Expleo India Infosystems Pvt. Ltd.', 'start_date': 'November 2022', 'end_date': 'Present', 'duration_months': 47, 'description': 'Analyzed business requirements to understand the application flow. Involve in Framework enhancement to improve the execution speed. Involvement in framework upgradation and design like function development, build reusable and customized functions, automate new test cases, regression, defect reporting. Designing and execution of test cases as per functionality of web application. Experience in Page Object Model design pattern in framework. Daily status reporting and bug reporting. Involve in daily standup meeting to report status of project activities. Involve in QA automation testing and Go Live automation testing.'}], 'education': [{'degree': 'Bachelor of Engineering (BE)', 'institution': 'Smt. Kashibai Navale College of Engineering, Sinhgad Institute, Pune', 'year': '2017'}, {'degree': 'Diploma', 'institution': 'Cusrow Wadia Institute of Technology, Pune', 'year': '2014'}, {'degree': 'SSC', 'institution': 'Subhash Vidya Mandir, Junnar', 'year': '2011'}], 'certifications': [], 'projects': [{'title': 'E-commerce Web Application', 'description': 'Online shopping website where users can search, view, zoom, add to wishlist, purchase products, and write reviews. Automation involved creating and executing test cases for functional, smoke, and regression testing using Selenium WebDriver, Java, and Cucumber BDD.', 'technologies': ['Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'JUnit', 'Eclipse IDE', 'GIT', 'JIRA', 'Maven']}, {'title': 'AWC (Active Workspace)', 'description': 'Testing of a semiconductor PLM application integrating Siemens Teamcenter with CAD tools. Responsibilities included analyzing requirements, enhancing the automation framework, developing reusable functions, automating new test cases, and performing QA and Go Live automation testing.', 'technologies': ['Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'JUnit', 'Eclipse IDE', 'GIT', 'JIRA', 'Maven']}], 'action_verbs': ['Automated', 'Executed', 'Used', 'Attended', 'Created', 'Maintained', 'Generated', 'Identified', 'Raised', 'Resolved', 'Analyzed', 'Involved', 'Designed', 'Built', 'Customized', 'Reported', 'Participated', 'Reviewed', 'Enhanced', 'Improved', 'Developed', 'Implemented'], 'keywords': ['Automation testing', 'Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'JUnit', 'Eclipse IDE', 'JIRA', 'Maven', 'GIT', 'Agile Scrum', 'SDLC', 'STLC', 'Defect Life Cycle', 'Black Box Testing', 'Smoke Testing', 'Sanity Testing', 'Regression Testing', 'Page Object Model', 'Test case creation', 'Test execution', 'Bug reporting', 'Test reporting', 'Software Testing', 'Web-based application', 'E-commerce', 'Active Workspace', 'Semiconductor', 'PLM', 'Teamcenter', 'CAD tools']}
+ERROR:analysis_route_logger:Critical exception raised during NLP/Embedding evaluation layer: unsupported operand type(s) for +: 'dict' and 'str'
+Traceback (most recent call last):
+  File "c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\api\routes.py", line 62, in analyse_resumes
+    result = analyse_resume(resume_text=text, nlp=nlp, embedder=embedder, job_descripation=jd)
+  File "c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\services\analyse_full_resume.py", line 46, in analyse_resume
+    detail_feedback=analyse_issue(parsed_resume=parsed_resume,text=resume_text,skill_validation=skill_validations,projetcs=projects,contact_info=contact_info,score=scores)
+  File "c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\services\feedback.py", line 16, in analyse_issue
+    experience_text+=i+'\n'
+                     ~^~~~~
+TypeError: unsupported operand type(s) for +: 'dict' and 'str'
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:sentence_transformers.base.model:No device provided, using cpu
+INFO:sentence_transformers.base.model:Loading SentenceTransformer model from c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\models\fine-tune.
+INFO:analysis_route_logger:--- NEW RESUME ANALYSIS REQUEST RECEIVED ---
+INFO:analysis_route_logger:Target Filename: Abhilasha_Wagh_+4.2YearsExp_Automation Tester.pdf | Content-Type: application/pdf
+INFO:analysis_route_logger:Job Description Provided: No (Length: 0 chars)
+INFO:analysis_route_logger:Reading raw upload payload from stream...
+INFO:analysis_route_logger:Executing extraction pipeline wrapper 'resume_parser' for: Abhilasha_Wagh_+4.2YearsExp_Automation Tester.pdf
+INFO:analysis_route_logger:Document parser execution completed successfully. Extracted text length: 5124 chars
+INFO:analysis_route_logger:Retrieving localized app-state NLP pipeline and vector embedding instances...
+INFO:analysis_route_logger:Dispatching text payload to core logic handler: 'analyse_resume'...
+INFO:groq_parser:--- START RESUME PARSING WORKFLOW ---
+INFO:groq_parser:Initializing Groq client singleton...
+INFO:groq_parser:Groq client initialized successfully.
+INFO:groq_parser:Dispatching API call to model: openai/gpt-oss-120b
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:groq_parser:Executing Primary Inference Pass (Attempt #1)...
+INFO:groq_parser:Attempting regex JSON extraction block...
+INFO:groq_parser:JSON successfully deserialised.
+INFO:groq_parser:Primary pass successful. Commencing schema evaluation...
+INFO:groq_parser:Beginning execution schema constraint checks...
+INFO:groq_parser:Schema integrity checks successfully completed.
+INFO:groq_parser:final result {'name': 'Abhilasha Wagh', 'email': 'waghabhilasha2024@gmail.com', 'phone': '+91 8999445209', 'linkedin': None, 'github': None, 'professional_summary': 'To join with a progressive and growing organization where my skills can realize and my knowledge can escalate for the benefit of the organization as well as for personal development.', 'skills': ['Manual Testing', 'Automation Testing', 'Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'JUnit', 'Eclipse IDE', 'JIRA', 'Maven', 'Git', 'GitHub', 'Agile Scrum', 'SDLC', 'STLC', 'Defect Life Cycle', 'Black Box Testing', 'Smoke Testing', 'Sanity Testing', 'Regression Testing', 'Page Object Model', 'Test Case Design', 'Bug Reporting', 'Test Automation', 'Continuous Integration'], 'experience': [{'job_title': 'Automation Tester', 'company': 'Cinetrix Infotech Pvt. Ltd.', 'start_date': 'Feb 2020', 'end_date': 'September 2022', 'duration_months': 31, 'description': 'Automated scenarios using Selenium WebDriver and JUnit, used Page Object Model and Cucumber framework, attended daily stand-up meetings and scrum review and retrospective meetings, created, executed and maintained test cases, generated logs for debugging, executed smoke tests and generated reports using Cucumber, identified bugs during black box testing, raised them in Jira and resolved them with developers, generated and analyzed reports.'}, {'job_title': 'Senior Software Engineer', 'company': 'Expleo India Infosystems Pvt. Ltd.', 'start_date': 'November 2022', 'end_date': 'Present', 'duration_months': 47, 'description': 'Analyzed business requirements to understand application flow, involved in framework enhancement to improve execution speed, performed framework upgradation and design including function development, built reusable and customized functions, automated new test cases, regression testing and defect reporting, designed and executed test cases for web application, applied Page Object Model design pattern, performed daily status and bug reporting, participated in daily standup meetings, conducted QA automation testing and Go Live automation testing.'}], 'education': [{'degree': 'Bachelor of Engineering (BE)', 'institution': 'Smt. Kashibai Navale College of Engineering, Sinhgad Institute, Pune', 'year': '2017'}, {'degree': 'Diploma', 'institution': 'Cusrow Wadia Institute of Technology, Pune', 'year': '2014'}, {'degree': 'SSC', 'institution': 'Subhash Vidya Mandir, Junnar', 'year': '2011'}], 'certifications': [], 'projects': [{'title': 'E-commerce Web Application', 'description': 'Online shopping website where users can search, view, zoom, add to wishlist, purchase products, and write reviews. Responsibilities included automating scenarios with Selenium WebDriver and JUnit, using Page Object Model and Cucumber framework, attending daily stand-up and scrum meetings, creating, executing and maintaining test cases, generating logs, executing smoke tests, generating reports, identifying and raising bugs in Jira, and analyzing reports.', 'technologies': ['Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'JUnit', 'Eclipse IDE', 'Git', 'JIRA', 'Maven']}, {'title': 'AWC (Active Workspace)', 'description': 'Testing application for Active Workspace used by Applied Materials to integrate Siemens Teamcenter with CAD tools for semiconductor and display manufacturing. Responsibilities included analyzing business requirements, enhancing and upgrading the automation framework, developing reusable functions, automating new test cases, regression and defect reporting, designing and executing test cases, applying Page Object Model, daily status and bug reporting, and participating in QA automation and Go Live testing.', 'technologies': ['Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'JUnit', 'Eclipse IDE', 'Git', 'JIRA', 'Maven']}], 'action_verbs': ['Automated', 'Used', 'Attended', 'Created', 'Executed', 'Maintained', 'Generated', 'Identified', 'Raised', 'Resolved', 'Analyzed', 'Involved', 'Improved', 'Designed', 'Developed', 'Built', 'Reported', 'Tested'], 'keywords': ['Automation testing', 'Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'JUnit', 'Eclipse IDE', 'JIRA', 'Maven', 'Git', 'Agile Scrum', 'SDLC', 'STLC', 'Defect Life Cycle', 'Black Box Testing', 'Smoke Testing', 'Sanity Testing', 'Regression Testing', 'Page Object Model', 'Test case design', 'Bug tracking', 'Continuous Integration', 'Software Engineer', 'Senior Software Engineer', 'Automation Tester', 'Web application', 'E-commerce', 'Active Workspace', 'Semiconductor', 'PLM', 'Teamcenter', 'CAD tools']}
+INFO:analysis_route_logger:Core analysis pipeline returned result dictionary successfully.
+INFO:analysis_route_logger:No 'jd_comparison' metrics found in the payload result. Skipping JD structure parsing.
+INFO:analysis_route_logger:Processing ancillary details: Detailed Feedback arrays & Skill Validation counts...
+INFO:analysis_route_logger:Compiling final 'AnalysisResponse' data structure wrapper...
+ERROR:analysis_route_logger:Data type conversion error during Response Model parsing constraint check: 2 validation errors for ComponentScores
+penalties
+  Field required [type=missing, input_value={'formatting': 16.8, 'key...ts_compatibility': 14.0}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+bonuses
+  Field required [type=missing, input_value={'formatting': 16.8, 'key...ts_compatibility': 14.0}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+Traceback (most recent call last):
+  File "c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\api\routes.py", line 112, in analyse_resumes
+    component_scores=ComponentScores(**comp_scores_raw),
+                     ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\anaconda3\Lib\site-packages\pydantic\main.py", line 250, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 2 validation errors for ComponentScores
+penalties
+  Field required [type=missing, input_value={'formatting': 16.8, 'key...ts_compatibility': 14.0}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+bonuses
+  Field required [type=missing, input_value={'formatting': 16.8, 'key...ts_compatibility': 14.0}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:sentence_transformers.base.model:No device provided, using cpu
+INFO:sentence_transformers.base.model:Loading SentenceTransformer model from c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\models\fine-tune.
+INFO:analysis_route_logger:--- NEW RESUME ANALYSIS REQUEST RECEIVED ---
+INFO:analysis_route_logger:Target Filename: Abhilasha_Wagh_+4.2YearsExp_Automation Tester.pdf | Content-Type: application/pdf
+INFO:analysis_route_logger:Job Description Provided: No (Length: 0 chars)
+INFO:analysis_route_logger:Reading raw upload payload from stream...
+INFO:analysis_route_logger:Executing extraction pipeline wrapper 'resume_parser' for: Abhilasha_Wagh_+4.2YearsExp_Automation Tester.pdf
+INFO:analysis_route_logger:Document parser execution completed successfully. Extracted text length: 5124 chars
+INFO:analysis_route_logger:Retrieving localized app-state NLP pipeline and vector embedding instances...
+INFO:analysis_route_logger:Dispatching text payload to core logic handler: 'analyse_resume'...
+INFO:groq_parser:--- START RESUME PARSING WORKFLOW ---
+INFO:groq_parser:Initializing Groq client singleton...
+INFO:groq_parser:Groq client initialized successfully.
+INFO:groq_parser:Dispatching API call to model: openai/gpt-oss-120b
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:groq_parser:Executing Primary Inference Pass (Attempt #1)...
+INFO:groq_parser:Attempting regex JSON extraction block...
+INFO:groq_parser:JSON successfully deserialised.
+INFO:groq_parser:Primary pass successful. Commencing schema evaluation...
+INFO:groq_parser:Beginning execution schema constraint checks...
+INFO:groq_parser:Schema integrity checks successfully completed.
+INFO:groq_parser:final result {'name': 'Abhilasha Wagh', 'email': 'waghabhilasha2024@gmail.com', 'phone': '+91 8999445209', 'linkedin': None, 'github': None, 'professional_summary': 'To join with a progressive and growing organization where my skills can realize and my knowledge can escalate for the benefit of the organization as well as for personal development.', 'skills': ['Manual Testing', 'Automation Testing', 'Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'Junit', 'Eclipse IDE', 'JIRA', 'Maven', 'GIT', 'GitHub', 'Agile Scrum', 'SDLC', 'STLC', 'Defect Life Cycle', 'Black Box Testing', 'Smoke Testing', 'Sanity Testing', 'Regression Testing', 'Page Object Model', 'Test Case Design', 'Bug Tracking', 'Project Management', 'Continuous Integration'], 'experience': [{'job_title': 'Automation Tester', 'company': 'Cinetrix Infotech Pvt. Ltd.', 'start_date': 'Feb 2020', 'end_date': 'September 2022', 'duration_months': 31, 'description': 'Created, reviewed, and executed manual and automated test cases for a web\u2011based e\u2011commerce application. Automated scenarios using Selenium WebDriver with Java, implemented Page Object Model and Cucumber BDD framework, generated test reports, identified and logged defects in JIRA, and participated in daily Scrum ceremonies.'}, {'job_title': 'Senior Software Engineer', 'company': 'Expleo India Infosystems Pvt. Ltd.', 'start_date': 'November 2022', 'end_date': 'Present', 'duration_months': 47, 'description': 'Analyzed business requirements for the AWC (Active Workspace) application, enhanced and upgraded the automation framework, designed and executed automated test cases using Selenium WebDriver, Core Java, Cucumber BDD and Junit, applied Page Object Model, reported daily status and defects, and performed QA automation and Go\u2011Live testing.'}], 'education': [{'degree': 'Bachelor of Engineering (BE)', 'institution': 'Smt. Kashibai Navale College of Engineering, Sinhgad Institute, Pune', 'year': '2017'}, {'degree': 'Diploma', 'institution': 'Cusrow Wadia Institute of Technology, Pune', 'year': '2014'}, {'degree': 'SSC', 'institution': 'Subhash Vidya Mandir, Junnar', 'year': '2011'}], 'certifications': [], 'projects': [{'title': 'E\u2011commerce Web Application', 'description': 'Online shopping website allowing users to search, view, add to wishlist, and purchase products across multiple categories. Implemented automated test suites covering functional, smoke, sanity, and regression scenarios.', 'technologies': ['Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'Junit', 'Eclipse IDE', 'GIT', 'JIRA', 'Maven']}, {'title': 'AWC (Active Workspace)', 'description': 'Testing of a PLM application integrating Siemens Teamcenter with CAD tools for semiconductor and display manufacturing. Developed and enhanced automation framework, executed functional and regression tests, and supported Go\u2011Live automation.', 'technologies': ['Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'Junit', 'Eclipse IDE', 'GIT', 'JIRA', 'Maven']}], 'action_verbs': ['Automated', 'Used', 'Attended', 'Created', 'Generated', 'Executed', 'Identified', 'Analyzed', 'Enhanced', 'Designed', 'Developed', 'Reported', 'Participated', 'Reviewed', 'Maintained'], 'keywords': ['Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'Junit', 'Eclipse IDE', 'GIT', 'GitHub', 'JIRA', 'Maven', 'Agile Scrum', 'SDLC', 'STLC', 'Defect Life Cycle', 'Black Box Testing', 'Smoke Testing', 'Sanity Testing', 'Regression Testing', 'Page Object Model', 'Test Automation', 'Manual Testing', 'Software Testing', 'Test Cases', 'Bug Tracking', 'Project Management', 'Continuous Integration', 'PLM', 'Teamcenter', 'CAD Integration', 'Functional Testing', 'Go Live Testing']}
+INFO:analysis_route_logger:Core analysis pipeline returned result dictionary successfully.
+INFO:analysis_route_logger:No 'jd_comparison' metrics found in the payload result. Skipping JD structure parsing.
+INFO:analysis_route_logger:Processing ancillary details: Detailed Feedback arrays & Skill Validation counts...
+INFO:analysis_route_logger:Compiling final 'AnalysisResponse' data structure wrapper...
+ERROR:analysis_route_logger:Data type conversion error during Response Model parsing constraint check: 2 validation errors for ComponentScores
+penalties
+  Input should be a valid number [type=float_type, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_type
+bonuses
+  Input should be a valid number [type=float_type, input_value={'perfact_grammer': 1.0}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_type
+Traceback (most recent call last):
+  File "c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\api\routes.py", line 112, in analyse_resumes
+    component_scores=ComponentScores(**comp_scores_raw),
+                     ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\anaconda3\Lib\site-packages\pydantic\main.py", line 250, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 2 validation errors for ComponentScores
+penalties
+  Input should be a valid number [type=float_type, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_type
+bonuses
+  Input should be a valid number [type=float_type, input_value={'perfact_grammer': 1.0}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/float_type
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:sentence_transformers.base.model:No device provided, using cpu
+INFO:sentence_transformers.base.model:Loading SentenceTransformer model from c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\models\fine-tune.
+INFO:analysis_route_logger:--- NEW RESUME ANALYSIS REQUEST RECEIVED ---
+INFO:analysis_route_logger:Target Filename: Abhilasha_Wagh_+4.2YearsExp_Automation Tester.pdf | Content-Type: application/pdf
+INFO:analysis_route_logger:Job Description Provided: No (Length: 0 chars)
+INFO:analysis_route_logger:Reading raw upload payload from stream...
+INFO:analysis_route_logger:Executing extraction pipeline wrapper 'resume_parser' for: Abhilasha_Wagh_+4.2YearsExp_Automation Tester.pdf
+INFO:analysis_route_logger:Document parser execution completed successfully. Extracted text length: 5124 chars
+INFO:analysis_route_logger:Retrieving localized app-state NLP pipeline and vector embedding instances...
+INFO:analysis_route_logger:Dispatching text payload to core logic handler: 'analyse_resume'...
+INFO:groq_parser:--- START RESUME PARSING WORKFLOW ---
+INFO:groq_parser:Initializing Groq client singleton...
+INFO:groq_parser:Groq client initialized successfully.
+INFO:groq_parser:Dispatching API call to model: openai/gpt-oss-120b
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:groq_parser:Executing Primary Inference Pass (Attempt #1)...
+INFO:groq_parser:Attempting regex JSON extraction block...
+INFO:groq_parser:JSON successfully deserialised.
+INFO:groq_parser:Primary pass successful. Commencing schema evaluation...
+INFO:groq_parser:Beginning execution schema constraint checks...
+INFO:groq_parser:Schema integrity checks successfully completed.
+INFO:groq_parser:final result {'name': 'Abhilasha Wagh', 'email': 'waghabhilasha2024@gmail.com', 'phone': '+91 8999445209', 'linkedin': None, 'github': None, 'professional_summary': 'To join with a progressive and growing organization where my skills can realize and my knowledge can escalate for the benefit of the organization as well as for personal development.', 'skills': ['Manual Testing', 'Automation Testing', 'Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'JUnit', 'Eclipse IDE', 'JIRA', 'Maven', 'GIT', 'GitHub', 'Agile Scrum', 'SDLC', 'STLC', 'Defect Life Cycle', 'Black Box Testing', 'Smoke Testing', 'Sanity Testing', 'Regression Testing', 'Page Object Model', 'Test Case Design', 'Bug Tracking', 'Project Management', 'Continuous Integration'], 'experience': [{'job_title': 'Automation Tester', 'company': 'Cinetrix Infotech Pvt. Ltd.', 'start_date': 'Feb 2020', 'end_date': 'September 2022', 'duration_months': 31, 'description': 'Created, reviewed, and executed manual and automated test cases for a web\u2011based e\u2011commerce application. Automated scenarios using Selenium WebDriver with Java, implemented Page Object Model and Cucumber BDD framework, generated test reports, identified and logged defects in JIRA, and participated in daily Scrum ceremonies.'}, {'job_title': 'Senior Software Engineer', 'company': 'Expleo India Infosystems Pvt. Ltd.', 'start_date': 'November 2022', 'end_date': 'Present', 'duration_months': 47, 'description': 'Analyzed business requirements for the AWC (Active Workspace) application, enhanced and upgraded the automation framework to improve execution speed, designed and executed automated test cases using Selenium, Java, and Cucumber, applied Page Object Model, reported daily status and defects, and performed QA automation and Go\u2011Live testing for semiconductor and PLM software.'}], 'education': [{'degree': 'Bachelor of Engineering (BE)', 'institution': 'Smt. Kashibai Navale College of Engineering, Sinhgad Institute, Pune', 'year': '2017'}, {'degree': 'Diploma', 'institution': 'Cusrow Wadia Institute of Technology, Pune', 'year': '2014'}, {'degree': 'SSC', 'institution': 'Subhash Vidya Mandir, Junnar', 'year': '2011'}], 'certifications': [], 'projects': [{'title': 'E\u2011commerce Web Application', 'description': 'Online shopping website allowing users to search, view, add to wishlist, and purchase products across multiple categories. Implemented automated test suites covering functional, smoke, sanity, and regression scenarios.', 'technologies': ['Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'JUnit', 'Eclipse IDE', 'GIT', 'JIRA', 'Maven']}, {'title': 'AWC (Active Workspace)', 'description': 'Testing of a PLM application integrating Siemens Teamcenter with CAD tools for semiconductor, flat\u2011panel display, and solar product manufacturing. Developed and maintained automation scripts, enhanced framework performance, and performed end\u2011to\u2011end QA automation.', 'technologies': ['Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'JUnit', 'Eclipse IDE', 'GIT', 'JIRA', 'Maven']}], 'action_verbs': ['Automated', 'Used', 'Attended', 'Created', 'Generated', 'Executed', 'Identified', 'Raised', 'Resolved', 'Analyzed', 'Involved', 'Enhanced', 'Upgraded', 'Designed', 'Reported', 'Participated', 'Maintained', 'Developed', 'Built', 'Customized'], 'keywords': ['Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'JUnit', 'Eclipse IDE', 'GIT', 'GitHub', 'Maven', 'JIRA', 'Agile Scrum', 'SDLC', 'STLC', 'Defect Life Cycle', 'Black Box Testing', 'Smoke Testing', 'Sanity Testing', 'Regression Testing', 'Page Object Model', 'Test Automation', 'Manual Testing', 'QA', 'Software Testing', 'Web\u2011based Application', 'PLM', 'Siemens Teamcenter', 'CAD Integration', 'Semiconductor', 'Flat Panel Display', 'Solar Products', 'Continuous Integration']}
+INFO:analysis_route_logger:Core analysis pipeline returned result dictionary successfully.
+INFO:analysis_route_logger:No 'jd_comparison' metrics found in the payload result. Skipping JD structure parsing.
+INFO:analysis_route_logger:Processing ancillary details: Detailed Feedback arrays & Skill Validation counts...
+INFO:analysis_route_logger:Compiling final 'AnalysisResponse' data structure wrapper...
+INFO:analysis_route_logger:Successfully serialized AnalysisResponse. Output ATS Score: 70.0
+INFO:analysis_route_logger:--- ROUTE WORKFLOW DISPATCH COMPLETED SUCCESSFULLY ---
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:sentence_transformers.base.model:No device provided, using cpu
+INFO:sentence_transformers.base.model:Loading SentenceTransformer model from c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\models\fine-tune.
+INFO:analysis_route_logger:--- NEW RESUME ANALYSIS REQUEST RECEIVED ---
+INFO:analysis_route_logger:Target Filename: [1218 PM] D, Paranthaman capgemini1.txt | Content-Type: text/plain
+INFO:analysis_route_logger:Job Description Provided: No (Length: 0 chars)
+INFO:analysis_route_logger:Reading raw upload payload from stream...
+INFO:analysis_route_logger:Executing extraction pipeline wrapper 'resume_parser' for: [1218 PM] D, Paranthaman capgemini1.txt
+ERROR:analysis_route_logger:Critical execution error during file ingestion/parsing sequence: No /Root object! - Is this really a PDF?
+Traceback (most recent call last):
+  File "c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\api\routes.py", line 41, in analyse_resumes
+    text = resume_parser(file=file)
+  File "c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\services\resume_file_parser.py", line 45, in resume_parser
+    text=_extraction_by_pdfminer(file)
+  File "c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\services\resume_file_parser.py", line 20, in _extraction_by_pdfminer
+    text=extract_text(io.BytesIO(file))
+  File "C:\Users\hp\anaconda3\Lib\site-packages\pdfminer\high_level.py", line 178, in extract_text
+    for page in PDFPage.get_pages(
+                ~~~~~~~~~~~~~~~~~^
+        fp,
+        ^^^
+    ...<3 lines>...
+        caching=caching,
+        ^^^^^^^^^^^^^^^^
+    ):
+    ^
+  File "C:\Users\hp\anaconda3\Lib\site-packages\pdfminer\pdfpage.py", line 165, in get_pages
+    doc = PDFDocument(parser, password=password, caching=caching)
+  File "C:\Users\hp\anaconda3\Lib\site-packages\pdfminer\pdfdocument.py", line 741, in __init__
+    raise PDFSyntaxError("No /Root object! - Is this really a PDF?")
+pdfminer.pdfparser.PDFSyntaxError: No /Root object! - Is this really a PDF?
+INFO:analysis_route_logger:--- NEW RESUME ANALYSIS REQUEST RECEIVED ---
+INFO:analysis_route_logger:Target Filename: satyam_resume.pdf | Content-Type: application/pdf
+INFO:analysis_route_logger:Job Description Provided: No (Length: 0 chars)
+INFO:analysis_route_logger:Reading raw upload payload from stream...
+INFO:analysis_route_logger:Executing extraction pipeline wrapper 'resume_parser' for: satyam_resume.pdf
+INFO:analysis_route_logger:Document parser execution completed successfully. Extracted text length: 2510 chars
+INFO:analysis_route_logger:Retrieving localized app-state NLP pipeline and vector embedding instances...
+INFO:analysis_route_logger:Dispatching text payload to core logic handler: 'analyse_resume'...
+INFO:groq_parser:--- START RESUME PARSING WORKFLOW ---
+INFO:groq_parser:Initializing Groq client singleton...
+INFO:groq_parser:Groq client initialized successfully.
+INFO:groq_parser:Dispatching API call to model: openai/gpt-oss-120b
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:groq_parser:Executing Primary Inference Pass (Attempt #1)...
+INFO:groq_parser:Attempting regex JSON extraction block...
+INFO:groq_parser:JSON successfully deserialised.
+INFO:groq_parser:Primary pass successful. Commencing schema evaluation...
+INFO:groq_parser:Beginning execution schema constraint checks...
+INFO:groq_parser:Schema integrity checks successfully completed.
+INFO:groq_parser:final result {'name': 'Satyam Anil Wagh', 'email': 'satyamwagh2006@gamil.com', 'phone': '9373410917', 'linkedin': None, 'github': None, 'professional_summary': '', 'skills': ['Python', 'JavaScript', 'HTML5', 'CSS3', 'Bootstrap', 'FastApi', 'sklearn', 'Flask', 'Streamlit', 'Git', 'GitHub', 'Docker', 'English (fluent)'], 'experience': [], 'education': [{'degree': 'B.E. Computer Engineering', 'institution': "TSSM's Bhivarabai Sawant College of Engineering and Research, Pune", 'year': ''}, {'degree': 'HSC', 'institution': 'D.M.J.C. Ale Tal:Junnar Dist:Pune', 'year': ''}, {'degree': 'SSC', 'institution': 'D.M.H Ale Tal:Junnar Dist:Pune', 'year': ''}], 'certifications': ['AI Fundamentals: Foundations for Understanding AI – IBM', 'AI Literacy – IBM'], 'projects': [{'title': 'ATS_SCORER', 'description': 'Developed a full-stack web application that extracts skills and experience from uploaded resumes (PDF/DOCX) and evaluates job description alignment using semantic similarity. Engineered the backend API using FastAPI and spaCy to handle asynchronous file parsing, and implemented Sentence Transformers (all-MiniLM-L6-v2) for advanced NLP matching. Integrated the Groq API (Llama 3) to generate dynamic, LLM-driven optimization feedback and structural suggestions for users. Implemented secure user authentication (Email/Password & Google OAuth) and database persistence using Supabase to save analysis histories. Designed an intuitive frontend dashboard with Streamlit and added custom PDF report exporting via WeasyPrint and Jinja2 templating.', 'technologies': ['HTML5', 'CSS3', 'JavaScript', 'Python', 'FastApi', 'sklearn', 'Git', 'GitHub', 'spaCy', 'Sentence Transformers', 'all-MiniLM-L6-v2', 'Groq API', 'Llama 3', 'LLM', 'Supabase', 'Streamlit', 'WeasyPrint', 'Jinja2']}, {'title': 'CreaditWise_Loan_System', 'description': 'Engineered an end-to-end intelligent loan approval system that automates the verification process by predicting applicant risk to eliminate human bias and accelerate processing speeds. Developed and trained a binary classification model using Logistic Regression over historical customer data, achieving optimized predictions for loan eligibility (Approved vs. Rejected). Built a scalable backend API engine using Python and Flask (app.py) to handle live HTTP scoring requests and load pickled machine learning artifacts (scaler.pkl, model.pkl). Optimized system latency by executing preprocessing steps (Label Encoding and One-Hot Encoding) on the client side using asynchronous JavaScript, effectively minimizing server overhead.', 'technologies': ['HTML5', 'CSS3', 'JavaScript', 'Flask', 'Python', 'Git', 'GitHub', 'Logistic Regression', 'Machine Learning', 'API', 'Asynchronous JavaScript']}], 'action_verbs': ['Developed', 'Engineered', 'Implemented', 'Integrated', 'Designed', 'Built', 'Optimized', 'Trained', 'Handled', 'Created', 'Automated'], 'keywords': ['resume parsing', 'skill extraction', 'experience extraction', 'semantic similarity', 'job description alignment', 'NLP', 'FastAPI', 'spaCy', 'Sentence Transformers', 'all-MiniLM-L6-v2', 'Groq API', 'Llama 3', 'LLM-driven feedback', 'user authentication', 'Google OAuth', 'Supabase', 'Streamlit', 'WeasyPrint', 'Jinja2', 'loan approval system', 'risk prediction', 'Logistic Regression', 'binary classification', 'machine learning', 'Flask', 'Docker', 'GitHub', 'Python', 'JavaScript', 'HTML5', 'CSS3', 'Bootstrap', 'sklearn', 'Git', 'Docker']}
+INFO:analysis_route_logger:Core analysis pipeline returned result dictionary successfully.
+INFO:analysis_route_logger:No 'jd_comparison' metrics found in the payload result. Skipping JD structure parsing.
+INFO:analysis_route_logger:Processing ancillary details: Detailed Feedback arrays & Skill Validation counts...
+INFO:analysis_route_logger:Compiling final 'AnalysisResponse' data structure wrapper...
+INFO:analysis_route_logger:Successfully serialized AnalysisResponse. Output ATS Score: 61.4
+INFO:analysis_route_logger:--- ROUTE WORKFLOW DISPATCH COMPLETED SUCCESSFULLY ---
+INFO:groq_parser:--- START RESUME PARSING WORKFLOW ---
+INFO:groq_parser:Dispatching API call to model: openai/gpt-oss-120b
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:groq_parser:Executing Primary Inference Pass (Attempt #1)...
+INFO:groq_parser:Attempting regex JSON extraction block...
+INFO:groq_parser:JSON successfully deserialised.
+INFO:groq_parser:Primary pass successful. Commencing schema evaluation...
+INFO:groq_parser:Beginning execution schema constraint checks...
+INFO:groq_parser:Schema integrity checks successfully completed.
+INFO:groq_parser:final result {'name': 'Abhilasha Wagh', 'email': 'waghabhilasha2024@gmail.com', 'phone': '+91 8999445209', 'linkedin': None, 'github': None, 'professional_summary': 'To join with a progressive and growing organization where my skills can realize and my knowledge can escalate for the benefit of the organization as well as for personal development.', 'skills': ['Manual Testing', 'Automation Testing', 'Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'JUnit', 'Eclipse IDE', 'JIRA', 'Maven', 'GIT', 'GitHub', 'Agile Scrum', 'SDLC', 'STLC', 'Defect Life Cycle', 'Black Box Testing', 'Smoke Testing', 'Sanity Testing', 'Regression Testing', 'Page Object Model', 'Test Case Design', 'Bug Tracking', 'Project Management', 'Continuous Integration', 'Team Collaboration', 'Communication'], 'experience': [{'job_title': 'Automation Tester', 'company': 'Cinetrix Infotech Pvt. Ltd.', 'start_date': 'Feb 2020', 'end_date': 'September 2022', 'duration_months': 31, 'description': 'Created, reviewed, and executed manual and automated test cases for a web\u2011based e\u2011commerce application. Automated scenarios using Selenium WebDriver with Java, implemented Page Object Model and Cucumber BDD framework, generated test reports, identified and logged defects in JIRA, and participated in daily Scrum ceremonies.'}, {'job_title': 'Senior Software Engineer', 'company': 'Expleo India Infosystems Pvt. Ltd.', 'start_date': 'November 2022', 'end_date': 'Present', 'duration_months': 47, 'description': 'Analyzed business requirements for the AWC (Active Workspace) application, enhanced and upgraded the automation framework to improve execution speed, designed and executed automated test cases using Selenium, Java, and Cucumber, maintained Page Object Model, reported daily status and bugs, and performed QA automation and Go\u2011Live testing.'}], 'education': [{'degree': 'Bachelor of Engineering (BE)', 'institution': 'Smt. Kashibai Navale College of Engineering, Sinhgad Institute, Pune', 'year': '2017'}, {'degree': 'Diploma', 'institution': 'Cusrow Wadia Institute of Technology, Pune', 'year': '2014'}, {'degree': 'SSC', 'institution': 'Subhash Vidya Mandir, Junnar', 'year': '2011'}], 'certifications': [], 'projects': [{'title': 'E\u2011commerce Web Application', 'description': 'Online shopping website allowing users to search, view, add to wishlist, and purchase products across multiple categories. Implemented end\u2011to\u2011end test automation covering search, product details, cart, checkout, and review functionalities.', 'technologies': ['Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'JUnit', 'Eclipse IDE', 'GIT', 'JIRA', 'Maven']}, {'title': 'AWC (Active Workspace)', 'description': 'Testing of a PLM application integrating Siemens Teamcenter with CAD tools for semiconductor, flat\u2011panel display, and solar product manufacturing. Involved in requirement analysis, framework enhancement, and automation of functional and regression test suites.', 'technologies': ['Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'JUnit', 'Eclipse IDE', 'GIT', 'JIRA', 'Maven']}], 'action_verbs': ['Automate', 'Execute', 'Use', 'Attend', 'Create', 'Generate', 'Identify', 'Raise', 'Resolve', 'Analyze', 'Involve', 'Design', 'Build', 'Report', 'Test', 'Maintain', 'Debug', 'Enhance', 'Upgrade', 'Develop', 'Reuse', 'Customize', 'Participate'], 'keywords': ['Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'JUnit', 'Eclipse IDE', 'GIT', 'GitHub', 'Maven', 'JIRA', 'Agile Scrum', 'SDLC', 'STLC', 'Defect Life Cycle', 'Black Box Testing', 'Smoke Testing', 'Sanity Testing', 'Regression Testing', 'Page Object Model', 'Test Automation', 'Manual Testing', 'QA Automation', 'PLM', 'Siemens Teamcenter', 'CAD tools', 'Semiconductor', 'Flat panel display', 'Solar products', 'Business Requirements', 'Framework Enhancement', 'Test Case Design', 'Bug Reporting', 'Continuous Integration', 'Project Management', 'Collaboration']}
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:sentence_transformers.base.model:No device provided, using cpu
+INFO:sentence_transformers.base.model:Loading SentenceTransformer model from c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\models\fine-tune.
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:sentence_transformers.base.model:No device provided, using cpu
+INFO:sentence_transformers.base.model:Loading SentenceTransformer model from c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\models\fine-tune.
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:sentence_transformers.base.model:No device provided, using cpu
+INFO:sentence_transformers.base.model:Loading SentenceTransformer model from c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\models\fine-tune.
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:sentence_transformers.base.model:No device provided, using cpu
+INFO:sentence_transformers.base.model:Loading SentenceTransformer model from c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\models\fine-tune.
+INFO:analysis_route_logger:--- NEW RESUME ANALYSIS REQUEST RECEIVED ---
+INFO:analysis_route_logger:Target Filename: Abhilasha_Wagh_+4.2YearsExp_Automation Tester.pdf | Content-Type: application/pdf
+INFO:analysis_route_logger:Job Description Provided: No (Length: 0 chars)
+INFO:analysis_route_logger:Reading raw upload payload from stream...
+INFO:analysis_route_logger:Executing extraction pipeline wrapper 'resume_parser' for: Abhilasha_Wagh_+4.2YearsExp_Automation Tester.pdf
+INFO:analysis_route_logger:Document parser execution completed successfully. Extracted text length: 5124 chars
+INFO:analysis_route_logger:Retrieving localized app-state NLP pipeline and vector embedding instances...
+INFO:analysis_route_logger:Dispatching text payload to core logic handler: 'analyse_resume'...
+INFO:groq_parser:--- START RESUME PARSING WORKFLOW ---
+INFO:groq_parser:Initializing Groq client singleton...
+INFO:groq_parser:Groq client initialized successfully.
+INFO:groq_parser:Dispatching API call to model: openai/gpt-oss-120b
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:groq_parser:Executing Primary Inference Pass (Attempt #1)...
+INFO:groq_parser:Attempting regex JSON extraction block...
+INFO:groq_parser:JSON successfully deserialised.
+INFO:groq_parser:Primary pass successful. Commencing schema evaluation...
+INFO:groq_parser:Beginning execution schema constraint checks...
+INFO:groq_parser:Schema integrity checks successfully completed.
+INFO:groq_parser:final result {'name': 'Abhilasha Wagh', 'email': 'waghabhilasha2024@gmail.com', 'phone': '+91 8999445209', 'linkedin': None, 'github': None, 'professional_summary': 'To join with a progressive and growing organization where my skills can realize and my knowledge can escalate for the benefit of the organization as well as for personal development.', 'skills': ['Manual Testing', 'Automation Testing', 'Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'Junit', 'Eclipse IDE', 'JIRA', 'Maven', 'GIT', 'GitHub', 'Agile Scrum', 'SDLC', 'STLC', 'Defect Life Cycle', 'Black Box Testing', 'Smoke Testing', 'Sanity Testing', 'Regression Testing', 'Page Object Model', 'Test Case Design', 'Bug Tracking', 'Project Management', 'Continuous Integration'], 'experience': [{'job_title': 'Automation Tester', 'company': 'Cinetrix Infotech Pvt. Ltd.', 'start_date': 'Feb 2020', 'end_date': 'September 2022', 'duration_months': 31, 'description': 'Created, reviewed, and executed manual and automated test cases for a web\u2011based e\u2011commerce application. Automated scenarios using Selenium WebDriver with Java, implemented Page Object Model and Cucumber BDD framework, generated test reports, identified and logged defects in JIRA, and participated in daily Scrum ceremonies.'}, {'job_title': 'Senior Software Engineer', 'company': 'Expleo India Infosystems Pvt. Ltd.', 'start_date': 'November 2022', 'end_date': 'Present', 'duration_months': 47, 'description': 'Analyzed business requirements for the AWC (Active Workspace) application, enhanced and upgraded the automation framework, designed and executed automated test cases using Selenium, Java, Cucumber, and Junit, implemented Page Object Model, reported daily status and defects, and performed QA automation and Go\u2011Live testing.'}], 'education': [{'degree': 'Bachelor of Engineering (BE)', 'institution': 'Smt. Kashibai Navale College of Engineering, Sinhgad Institute, Pune', 'year': '2017'}, {'degree': 'Diploma', 'institution': 'Cusrow Wadia Institute of Technology, Pune', 'year': '2014'}, {'degree': 'SSC', 'institution': 'Subhash Vidya Mandir, Junnar', 'year': '2011'}], 'certifications': [], 'projects': [{'title': 'E\u2011commerce Web Application', 'description': 'Online shopping website allowing users to search, view, add to wishlist, and purchase products across multiple categories. Implemented automated test suites covering functional, smoke, sanity, and regression scenarios.', 'technologies': ['Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'Junit', 'Eclipse IDE', 'GIT', 'JIRA', 'Maven']}, {'title': 'AWC (Active Workspace)', 'description': 'Testing of a PLM application integrating Siemens Teamcenter with CAD tools for semiconductor and display manufacturing. Developed automation scripts, enhanced framework performance, and performed end\u2011to\u2011end functional and regression testing.', 'technologies': ['Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'Junit', 'Eclipse IDE', 'GIT', 'JIRA', 'Maven']}], 'action_verbs': ['Automated', 'Used', 'Attended', 'Created', 'Generated', 'Executed', 'Identified', 'Analyzed', 'Enhanced', 'Designed', 'Developed', 'Reported', 'Participated', 'Reviewed', 'Maintained'], 'keywords': ['Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'Junit', 'Eclipse IDE', 'GIT', 'GitHub', 'Maven', 'JIRA', 'Agile Scrum', 'SDLC', 'STLC', 'Defect Life Cycle', 'Black Box Testing', 'Smoke Testing', 'Sanity Testing', 'Regression Testing', 'Page Object Model', 'Test Automation', 'Manual Testing', 'Automation Tester', 'Senior Software Engineer', 'E\u2011commerce', 'Active Workspace', 'Applied Materials', 'Teamcenter', 'PLM', 'Semiconductor', 'Bug Reporting', 'Scrum ceremonies', 'Test Case Design', 'Continuous Integration']}
+INFO:analysis_route_logger:Core analysis pipeline returned result dictionary successfully.
+INFO:analysis_route_logger:No 'jd_comparison' metrics found in the payload result. Skipping JD structure parsing.
+INFO:analysis_route_logger:Processing ancillary details: Detailed Feedback arrays & Skill Validation counts...
+INFO:analysis_route_logger:Compiling final 'AnalysisResponse' data structure wrapper...
+INFO:analysis_route_logger:Successfully serialized AnalysisResponse. Output ATS Score: 70.0
+INFO:analysis_route_logger:--- ROUTE WORKFLOW DISPATCH COMPLETED SUCCESSFULLY ---
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:sentence_transformers.base.model:No device provided, using cpu
+INFO:sentence_transformers.base.model:Loading SentenceTransformer model from c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\models\fine-tune.
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:sentence_transformers.base.model:No device provided, using cpu
+INFO:sentence_transformers.base.model:Loading SentenceTransformer model from c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\models\fine-tune.
+INFO:analysis_route_logger:--- NEW RESUME ANALYSIS REQUEST RECEIVED ---
+INFO:analysis_route_logger:Target Filename: Abhilasha_Wagh_+4.2YearsExp_Automation Tester.pdf | Content-Type: application/pdf
+INFO:analysis_route_logger:Job Description Provided: No (Length: 0 chars)
+INFO:analysis_route_logger:Reading raw upload payload from stream...
+INFO:analysis_route_logger:Executing extraction pipeline wrapper 'resume_parser' for: Abhilasha_Wagh_+4.2YearsExp_Automation Tester.pdf
+INFO:analysis_route_logger:Document parser execution completed successfully. Extracted text length: 5124 chars
+INFO:analysis_route_logger:Retrieving localized app-state NLP pipeline and vector embedding instances...
+INFO:analysis_route_logger:Dispatching text payload to core logic handler: 'analyse_resume'...
+INFO:groq_parser:--- START RESUME PARSING WORKFLOW ---
+INFO:groq_parser:Initializing Groq client singleton...
+INFO:groq_parser:Groq client initialized successfully.
+INFO:groq_parser:Dispatching API call to model: openai/gpt-oss-120b
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:groq_parser:Executing Primary Inference Pass (Attempt #1)...
+INFO:groq_parser:Attempting regex JSON extraction block...
+INFO:groq_parser:JSON successfully deserialised.
+INFO:groq_parser:Primary pass successful. Commencing schema evaluation...
+INFO:groq_parser:Beginning execution schema constraint checks...
+INFO:groq_parser:Schema integrity checks successfully completed.
+INFO:groq_parser:final result {'name': 'Abhilasha Wagh', 'email': 'waghabhilasha2024@gmail.com', 'phone': '+91 8999445209', 'linkedin': None, 'github': None, 'professional_summary': 'To join with a progressive and growing organization where my skills can realize and my knowledge can escalate for the benefit of the organization as well as for personal development.', 'skills': ['Manual Testing', 'Automation Testing', 'Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'Junit', 'Eclipse IDE', 'JIRA', 'Maven', 'GIT', 'GitHub', 'Agile Scrum', 'SDLC', 'STLC', 'Defect Life Cycle', 'Black Box Testing', 'Smoke Testing', 'Sanity Testing', 'Regression Testing', 'Page Object Model', 'Test Case Design', 'Bug Tracking', 'Project Management', 'Continuous Integration'], 'experience': [{'job_title': 'Automation Tester', 'company': 'Cinetrix Infotech Pvt. Ltd.', 'start_date': 'Feb 2020', 'end_date': 'September 2022', 'duration_months': 31, 'description': 'Created, reviewed, and executed manual and automated test cases for a web\u2011based e\u2011commerce application. Automated scenarios using Selenium WebDriver with Java, implemented Page Object Model and Cucumber BDD framework, generated test reports, identified and logged defects in JIRA, and participated in daily Scrum ceremonies.'}, {'job_title': 'Senior Software Engineer', 'company': 'Expleo India Infosystems Pvt. Ltd.', 'start_date': 'November 2022', 'end_date': 'Present', 'duration_months': 47, 'description': 'Analyzed business requirements for the AWC (Active Workspace) application, enhanced and upgraded the automation framework, designed and executed automated test cases using Selenium WebDriver, Core Java, Cucumber BDD and Junit, applied Page Object Model, reported daily status and defects, and performed QA automation and Go\u2011Live testing.'}], 'education': [{'degree': 'Bachelor of Engineering (BE)', 'institution': 'Smt. Kashibai Navale College of Engineering, Sinhgad Institute, Pune', 'year': '2017'}, {'degree': 'Diploma', 'institution': 'Cusrow Wadia Institute of Technology, Pune', 'year': '2014'}, {'degree': 'SSC', 'institution': 'Subhash Vidya Mandir, Junnar', 'year': '2011'}], 'certifications': [], 'projects': [{'title': 'E\u2011commerce Web Application', 'description': 'Online shopping website allowing users to search, view, add to wishlist, and purchase products across multiple categories. Implemented automated test suites covering functional, smoke, sanity, and regression scenarios.', 'technologies': ['Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'Junit', 'Eclipse IDE', 'GIT', 'JIRA', 'Maven']}, {'title': 'AWC (Active Workspace)', 'description': 'Testing platform for Applied Materials that integrates Siemens Teamcenter with CAD tools for semiconductor and display product lifecycle management. Developed and maintained automation scripts, enhanced framework performance, and performed end\u2011to\u2011end functional testing.', 'technologies': ['Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'Junit', 'Eclipse IDE', 'GIT', 'JIRA', 'Maven']}], 'action_verbs': ['Automated', 'Used', 'Attended', 'Created', 'Generated', 'Executed', 'Identified', 'Analyzed', 'Enhanced', 'Designed', 'Developed', 'Reported', 'Participated', 'Reviewed', 'Maintained'], 'keywords': ['Selenium WebDriver', 'Core Java', 'Cucumber BDD', 'Junit', 'Eclipse IDE', 'GIT', 'GitHub', 'JIRA', 'Maven', 'Agile Scrum', 'SDLC', 'STLC', 'Defect Life Cycle', 'Black Box Testing', 'Smoke Testing', 'Sanity Testing', 'Regression Testing', 'Page Object Model', 'Test Automation', 'Manual Testing', 'Software Testing', 'Test Cases', 'Bug Tracking', 'Project Management', 'Continuous Integration', 'Framework Enhancement', 'Functional Testing', 'Go Live Testing']}
+INFO:analysis_route_logger:Core analysis pipeline returned result dictionary successfully.
+INFO:analysis_route_logger:No 'jd_comparison' metrics found in the payload result. Skipping JD structure parsing.
+INFO:analysis_route_logger:Processing ancillary details: Detailed Feedback arrays & Skill Validation counts...
+INFO:analysis_route_logger:Compiling final 'AnalysisResponse' data structure wrapper...
+INFO:analysis_route_logger:Successfully serialized AnalysisResponse. Output ATS Score: 70.0
+INFO:analysis_route_logger:--- ROUTE WORKFLOW DISPATCH COMPLETED SUCCESSFULLY ---
+INFO:analysis_route_logger:--- NEW RESUME ANALYSIS REQUEST RECEIVED ---
+INFO:analysis_route_logger:Target Filename: satyam_resume.pdf | Content-Type: application/pdf
+INFO:analysis_route_logger:Job Description Provided: No (Length: 0 chars)
+INFO:analysis_route_logger:Reading raw upload payload from stream...
+INFO:analysis_route_logger:Executing extraction pipeline wrapper 'resume_parser' for: satyam_resume.pdf
+INFO:analysis_route_logger:Document parser execution completed successfully. Extracted text length: 2510 chars
+INFO:analysis_route_logger:Retrieving localized app-state NLP pipeline and vector embedding instances...
+INFO:analysis_route_logger:Dispatching text payload to core logic handler: 'analyse_resume'...
+INFO:groq_parser:--- START RESUME PARSING WORKFLOW ---
+INFO:groq_parser:Dispatching API call to model: openai/gpt-oss-120b
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:groq_parser:Executing Primary Inference Pass (Attempt #1)...
+INFO:groq_parser:Attempting regex JSON extraction block...
+INFO:groq_parser:JSON successfully deserialised.
+INFO:groq_parser:Primary pass successful. Commencing schema evaluation...
+INFO:groq_parser:Beginning execution schema constraint checks...
+INFO:groq_parser:Schema integrity checks successfully completed.
+INFO:groq_parser:final result {'name': 'Satyam Anil Wagh', 'email': 'satyamwagh2006@gamil.com', 'phone': '9373410917', 'linkedin': None, 'github': None, 'professional_summary': '', 'skills': ['Python', 'JavaScript', 'HTML5', 'CSS3', 'Bootstrap', 'FastApi', 'sklearn', 'Flask', 'Streamlit', 'Git', 'GitHub', 'Docker', 'English (fluent)'], 'experience': [], 'education': [{'degree': 'B.E. Computer Engineering', 'institution': "TSSM's Bhivarabai Sawant College of Engineering and Research, Pune", 'year': ''}], 'certifications': ['AI Fundamentals: Foundations for Understanding AI – IBM', 'AI Literacy – IBM'], 'projects': [{'title': 'ATS_SCORER', 'description': 'Developed a full-stack web application that extracts skills and experience from uploaded resumes (PDF/DOCX) and evaluates job description alignment using semantic similarity. Engineered the backend API using FastAPI and spaCy to handle asynchronous file parsing, and implemented Sentence Transformers (all-MiniLM-L6-v2) for advanced NLP matching. Integrated the Groq API (Llama 3) to generate dynamic, LLM-driven optimization feedback and structural suggestions for users. Implemented secure user authentication (Email/Password & Google OAuth) and database persistence using Supabase to save analysis histories. Designed an intuitive frontend dashboard with Streamlit and added custom PDF report exporting via WeasyPrint and Jinja2 templating.', 'technologies': ['HTML5', 'CSS3', 'JavaScript', 'Python', 'FastApi', 'sklearn', 'Git', 'GitHub', 'spaCy', 'Sentence Transformers', 'all-MiniLM-L6-v2', 'Groq API', 'Llama 3', 'Supabase', 'Streamlit', 'WeasyPrint', 'Jinja2']}, {'title': 'CreaditWise_Loan_System', 'description': 'Engineered an end-to-end intelligent loan approval system that automates the verification process by predicting applicant risk to eliminate human bias and accelerate processing speeds. Developed and trained a binary classification model using Logistic Regression over historical customer data, achieving optimized predictions for loan eligibility (Approved vs. Rejected). Built a scalable backend API engine using Python and Flask (app.py) to handle live HTTP scoring requests and load pickled machine learning artifacts (scaler.pkl, model.pkl). Optimized system latency by executing preprocessing steps (Label Encoding and One-Hot Encoding) on the client side using asynchronous JavaScript, effectively minimizing server overhead.', 'technologies': ['HTML5', 'CSS3', 'JavaScript', 'Python', 'Flask', 'Git', 'GitHub', 'Logistic Regression', 'Machine Learning', 'Label Encoding', 'One-Hot Encoding', 'Asynchronous JavaScript']}], 'action_verbs': ['Developed', 'Engineered', 'Implemented', 'Integrated', 'Designed', 'Built', 'Optimized'], 'keywords': ['full-stack web application', 'resume parsing', 'PDF', 'DOCX', 'semantic similarity', 'job description alignment', 'FastAPI', 'spaCy', 'asynchronous file parsing', 'Sentence Transformers', 'all-MiniLM-L6-v2', 'NLP', 'Groq API', 'Llama 3', 'LLM-driven feedback', 'user authentication', 'Email/Password', 'Google OAuth', 'Supabase', 'analysis histories', 'frontend dashboard', 'Streamlit', 'PDF report exporting', 'WeasyPrint', 'Jinja2', 'HTML5', 'CSS3', 'JavaScript', 'Python', 'sklearn', 'Git', 'GitHub', 'Docker', 'Bootstrap', 'loan approval system', 'risk prediction', 'Logistic Regression', 'binary classification', 'machine learning', 'Flask', 'API', 'HTTP scoring', 'pickled artifacts', 'scaler.pkl', 'model.pkl', 'label encoding', 'one-hot encoding', 'asynchronous JavaScript']}
+INFO:analysis_route_logger:Core analysis pipeline returned result dictionary successfully.
+INFO:analysis_route_logger:No 'jd_comparison' metrics found in the payload result. Skipping JD structure parsing.
+INFO:analysis_route_logger:Processing ancillary details: Detailed Feedback arrays & Skill Validation counts...
+INFO:analysis_route_logger:Compiling final 'AnalysisResponse' data structure wrapper...
+INFO:analysis_route_logger:Successfully serialized AnalysisResponse. Output ATS Score: 59.0
+INFO:analysis_route_logger:--- ROUTE WORKFLOW DISPATCH COMPLETED SUCCESSFULLY ---
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:sentence_transformers.base.model:No device provided, using cpu
+INFO:sentence_transformers.base.model:Loading SentenceTransformer model from c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\models\fine-tune.
+INFO:analysis_route_logger:--- NEW RESUME ANALYSIS REQUEST RECEIVED ---
+INFO:analysis_route_logger:Target Filename: satyam_resume.pdf | Content-Type: application/pdf
+INFO:analysis_route_logger:Job Description Provided: No (Length: 0 chars)
+INFO:analysis_route_logger:Reading raw upload payload from stream...
+INFO:analysis_route_logger:Executing extraction pipeline wrapper 'resume_parser' for: satyam_resume.pdf
+INFO:analysis_route_logger:Document parser execution completed successfully. Extracted text length: 2510 chars
+INFO:analysis_route_logger:Retrieving localized app-state NLP pipeline and vector embedding instances...
+INFO:analysis_route_logger:Dispatching text payload to core logic handler: 'analyse_resume'...
+INFO:groq_parser:--- START RESUME PARSING WORKFLOW ---
+INFO:groq_parser:Initializing Groq client singleton...
+INFO:groq_parser:Groq client initialized successfully.
+INFO:groq_parser:Dispatching API call to model: openai/gpt-oss-120b
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:groq_parser:Executing Primary Inference Pass (Attempt #1)...
+INFO:groq_parser:Attempting regex JSON extraction block...
+INFO:groq_parser:JSON successfully deserialised.
+INFO:groq_parser:Primary pass successful. Commencing schema evaluation...
+INFO:groq_parser:Beginning execution schema constraint checks...
+INFO:groq_parser:Schema integrity checks successfully completed.
+INFO:groq_parser:final result {'name': 'Satyam Anil Wagh', 'email': 'satyamwagh2006@gamil.com', 'phone': '9373410917', 'linkedin': None, 'github': None, 'professional_summary': '', 'skills': ['Python', 'JavaScript', 'HTML5', 'CSS3', 'Bootstrap', 'FastApi', 'sklearn', 'Flask', 'Streamlit', 'Git', 'GitHub', 'Docker', 'English (fluent)'], 'experience': [], 'education': [{'degree': 'B.E. Computer Engineering', 'institution': "TSSM's Bhivarabai Sawant College of Engineering and Research, Pune", 'year': ''}, {'degree': 'HSC', 'institution': 'D.M.J.C. Ale Tal:Junnar Dist:Pune', 'year': ''}, {'degree': 'SSC', 'institution': 'D.M.H Ale Tal:Junnar Dist:Pune', 'year': ''}], 'certifications': ['AI Fundamentals: Foundations for Understanding AI – IBM', 'AI Literacy – IBM'], 'projects': [{'title': 'ATS_SCORER', 'description': 'Developed a full-stack web application that extracts skills and experience from uploaded resumes (PDF/DOCX) and evaluates job description alignment using semantic similarity. Engineered the backend API using FastAPI and spaCy to handle asynchronous file parsing, and implemented Sentence Transformers (all-MiniLM-L6-v2) for advanced NLP matching. Integrated the Groq API (Llama 3) to generate dynamic, LLM-driven optimization feedback and structural suggestions for users. Implemented secure user authentication (Email/Password & Google OAuth) and database persistence using Supabase to save analysis histories. Designed an intuitive frontend dashboard with Streamlit and added custom PDF report exporting via WeasyPrint and Jinja2 templating.', 'technologies': ['HTML5', 'CSS3', 'JavaScript', 'Python', 'FastApi', 'sklearn', 'Git', 'GitHub', 'spaCy', 'Sentence Transformers', 'all-MiniLM-L6-v2', 'Groq API', 'Llama 3', 'Supabase', 'Streamlit', 'WeasyPrint', 'Jinja2']}, {'title': 'CreaditWise_Loan_System', 'description': 'Engineered an end-to-end intelligent loan approval system that automates the verification process by predicting applicant risk to eliminate human bias and accelerate processing speeds. Developed and trained a binary classification model using Logistic Regression over historical customer data, achieving optimized predictions for loan eligibility (Approved vs. Rejected). Built a scalable backend API engine using Python and Flask (app.py) to handle live HTTP scoring requests and load pickled machine learning artifacts (scaler.pkl, model.pkl). Optimized system latency by executing preprocessing steps (Label Encoding and One-Hot Encoding) on the client side using asynchronous JavaScript, effectively minimizing server overhead.', 'technologies': ['HTML5', 'CSS3', 'JavaScript', 'Python', 'Flask', 'Git', 'GitHub', 'Logistic Regression', 'Machine Learning', 'Asynchronous JavaScript', 'Label Encoding', 'One-Hot Encoding']}], 'action_verbs': ['Developed', 'Engineered', 'Implemented', 'Integrated', 'Designed', 'Built', 'Optimized'], 'keywords': ['full-stack web application', 'resume parsing', 'semantic similarity', 'FastAPI', 'spaCy', 'Sentence Transformers', 'all-MiniLM-L6-v2', 'NLP', 'Groq API', 'Llama 3', 'LLM-driven feedback', 'authentication', 'Google OAuth', 'Supabase', 'Streamlit', 'WeasyPrint', 'Jinja2', 'HTML5', 'CSS3', 'JavaScript', 'Python', 'sklearn', 'Git', 'Docker', 'loan approval system', 'Logistic Regression', 'binary classification', 'machine learning', 'Flask', 'asynchronous JavaScript', 'label encoding', 'one-hot encoding']}
+INFO:analysis_route_logger:Core analysis pipeline returned result dictionary successfully.
+INFO:analysis_route_logger:No 'jd_comparison' metrics found in the payload result. Skipping JD structure parsing.
+INFO:analysis_route_logger:Processing ancillary details: Detailed Feedback arrays & Skill Validation counts...
+INFO:analysis_route_logger:Compiling final 'AnalysisResponse' data structure wrapper...
+INFO:analysis_route_logger:Successfully serialized AnalysisResponse. Output ATS Score: 59.0
+INFO:analysis_route_logger:--- ROUTE WORKFLOW DISPATCH COMPLETED SUCCESSFULLY ---
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:numexpr.utils:NumExpr defaulting to 12 threads.
+INFO:sentence_transformers.base.model:No device provided, using cpu
+INFO:sentence_transformers.base.model:Loading SentenceTransformer model from c:\Users\hp\OneDrive\Desktop\AI major projects\ATS Resume\backend\models\fine-tune.
+INFO:analysis_route_logger:--- NEW RESUME ANALYSIS REQUEST RECEIVED ---
+INFO:analysis_route_logger:Target Filename: satyam_resume.pdf | Content-Type: application/pdf
+INFO:analysis_route_logger:Job Description Provided: No (Length: 0 chars)
+INFO:analysis_route_logger:Reading raw upload payload from stream...
+INFO:analysis_route_logger:Executing extraction pipeline wrapper 'resume_parser' for: satyam_resume.pdf
+INFO:analysis_route_logger:Document parser execution completed successfully. Extracted text length: 2510 chars
+INFO:analysis_route_logger:Retrieving localized app-state NLP pipeline and vector embedding instances...
+INFO:analysis_route_logger:Dispatching text payload to core logic handler: 'analyse_resume'...
+INFO:groq_parser:--- START RESUME PARSING WORKFLOW ---
+INFO:groq_parser:Initializing Groq client singleton...
+INFO:groq_parser:Groq client initialized successfully.
+INFO:groq_parser:Dispatching API call to model: openai/gpt-oss-120b
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:groq_parser:Executing Primary Inference Pass (Attempt #1)...
+INFO:groq_parser:Attempting regex JSON extraction block...
+INFO:groq_parser:JSON successfully deserialised.
+INFO:groq_parser:Primary pass successful. Commencing schema evaluation...
+INFO:groq_parser:Beginning execution schema constraint checks...
+INFO:groq_parser:Schema integrity checks successfully completed.
+INFO:groq_parser:final result {'name': 'Satyam Anil Wagh', 'email': 'satyamwagh2006@gamil.com', 'phone': '9373410917', 'linkedin': None, 'github': None, 'professional_summary': '', 'skills': ['Python', 'JavaScript', 'HTML5', 'CSS3', 'Bootstrap', 'FastApi', 'sklearn', 'Flask', 'Streamlit', 'Git', 'GitHub', 'Docker', 'English (fluent)'], 'experience': [], 'education': [{'degree': 'B.E. Computer Engineering', 'institution': "TSSM's Bhivarabai Sawant College of Engineering and Research, Pune", 'year': ''}, {'degree': 'HSC', 'institution': 'D.M.J.C. Ale Tal:Junnar Dist:Pune', 'year': ''}, {'degree': 'SSC', 'institution': 'D.M.H Ale Tal:Junnar Dist:Pune', 'year': ''}], 'certifications': ['AI Fundamentals: Foundations for Understanding AI – IBM', 'AI Literacy – IBM'], 'projects': [{'title': 'ATS_SCORER', 'description': 'Developed a full-stack web application that extracts skills and experience from uploaded resumes (PDF/DOCX) and evaluates job description alignment using semantic similarity. Engineered the backend API using FastAPI and spaCy to handle asynchronous file parsing, and implemented Sentence Transformers (all-MiniLM-L6-v2) for advanced NLP matching. Integrated the Groq API (Llama 3) to generate dynamic, LLM-driven optimization feedback and structural suggestions for users. Implemented secure user authentication (Email/Password & Google OAuth) and database persistence using Supabase to save analysis histories. Designed an intuitive frontend dashboard with Streamlit and added custom PDF report exporting via WeasyPrint and Jinja2 templating.', 'technologies': ['HTML5', 'CSS3', 'JavaScript', 'Python', 'FastApi', 'sklearn', 'Git', 'GitHub', 'spaCy', 'Sentence Transformers (all-MiniLM-L6-v2)', 'Groq API (Llama 3)', 'Supabase', 'Streamlit', 'WeasyPrint', 'Jinja2']}, {'title': 'CreaditWise_Loan_System', 'description': 'Engineered an end-to-end intelligent loan approval system that automates the verification process by predicting applicant risk to eliminate human bias and accelerate processing speeds. Developed and trained a binary classification model using Logistic Regression over historical customer data, achieving optimized predictions for loan eligibility (Approved vs. Rejected). Built a scalable backend API engine using Python and Flask (app.py) to handle live HTTP scoring requests and load pickled machine learning artifacts (scaler.pkl, model.pkl). Optimized system latency by executing preprocessing steps (Label Encoding and One-Hot Encoding) on the client side using asynchronous JavaScript, effectively minimizing server overhead.', 'technologies': ['HTML5', 'CSS3', 'JavaScript', 'Python', 'Flask', 'Git', 'GitHub', 'Logistic Regression', 'Machine Learning', 'API']}], 'action_verbs': ['Developed', 'Engineered', 'Implemented', 'Integrated', 'Designed', 'Built', 'Optimized'], 'keywords': ['resume parsing', 'skill extraction', 'experience extraction', 'semantic similarity', 'NLP matching', 'FastAPI', 'spaCy', 'Sentence Transformers', 'all-MiniLM-L6-v2', 'Groq API', 'Llama 3', 'LLM-driven feedback', 'user authentication', 'Google OAuth', 'Supabase', 'PDF report exporting', 'WeasyPrint', 'Jinja2', 'Streamlit dashboard', 'loan approval system', 'risk prediction', 'binary classification', 'Logistic Regression', 'machine learning', 'backend API', 'Flask', 'asynchronous JavaScript', 'label encoding', 'one-hot encoding', 'Docker', 'Git', 'GitHub', 'HTML5', 'CSS3', 'Bootstrap', 'Python', 'JavaScript']}
+INFO:analysis_route_logger:Core analysis pipeline returned result dictionary successfully.
+INFO:analysis_route_logger:No 'jd_comparison' metrics found in the payload result. Skipping JD structure parsing.
+INFO:analysis_route_logger:Processing ancillary details: Detailed Feedback arrays & Skill Validation counts...
+INFO:analysis_route_logger:Compiling final 'AnalysisResponse' data structure wrapper...
+INFO:analysis_route_logger:Successfully serialized AnalysisResponse. Output ATS Score: 59.0
+INFO:analysis_route_logger:--- ROUTE WORKFLOW DISPATCH COMPLETED SUCCESSFULLY ---

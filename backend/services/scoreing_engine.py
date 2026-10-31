@@ -3,6 +3,7 @@ import spacy
 from sentence_transformers import SentenceTransformer
 import numpy as np
 from utils.matching import fuzzy_match_keywords
+
 ZIP_CODE_PATTERN = r'\b\d{5}(?:-\d{4})?\b'
 
 STREET_ADDRESS_PATTERN = (
@@ -93,7 +94,7 @@ def validate_skill(skills:list[str],experience_entries:list[dict],projects:list[
         }
     experince_text=""
     for i in experience_entries:
-        experience_entries+=f"{i.get('job_title','')} {i.get('company','')} {i.get('description','')}"
+        experince_text+=f"{i.get('job_title','')} {i.get('company','')} {i.get('description','')}"
     
     validated_skills=[]
     unvalidated_skills=[]
@@ -209,7 +210,7 @@ def _calculate_ats_comptibility(text:str,location_result:dict,parsed_resume:dict
     edu_entries=[i for i in parsed_resume.get("education",[]) if isinstance(i,dict)]
     skills_count=len(parsed_resume.get("skills",[]))
 
-    exp_count_len=sum(len(exp_entries.get("description",''))for i in exp_entries)
+    exp_count_len=sum(len(i.get("description",''))for i in exp_entries)
     edu_count_len=sum(len((i.get('degree') or '') + (i.get('institution') or ''))for i in edu_entries)
 
     #deduction 03

@@ -6,7 +6,11 @@
     "keywords": 0,
     "content": 19,
     "skill_validation": 15,
-    "ats_compatibility": 13
+    "ats_compatibility": 13,
+    "penalties": {},
+    "bonuses": {
+      "perfact_grammer": 1
+    }
   },
   "issues_summary": [
     "Most Skills Lack Supporting Evidence",
@@ -96,11 +100,46 @@
   ],
   "interpretation": "Fair. Your resume needs some improvements to be fully ATS-compatible.",
   "skill_validation_details": {
-    "validated": [],
-    "unvalidated": [],
-    "total": 0,
-    "validated_count": 0,
-    "validation_pct": 0
+    "validated": [
+      {
+        "skill": "Python",
+        "projects": [
+          "CreaditWise_Loan_System"
+        ]
+      },
+      {
+        "skill": "JavaScript",
+        "projects": [
+          "CreaditWise_Loan_System"
+        ]
+      },
+      {
+        "skill": "Flask",
+        "projects": [
+          "CreaditWise_Loan_System"
+        ]
+      },
+      {
+        "skill": "Streamlit",
+        "projects": [
+          "ATS_SCORER"
+        ]
+      }
+    ],
+    "unvalidated": [
+      "HTML5",
+      "CSS3",
+      "Bootstrap",
+      "FastApi",
+      "sklearn",
+      "Git",
+      "GitHub",
+      "Docker",
+      "English (fluent)"
+    ],
+    "total": 13,
+    "validated_count": 4,
+    "validation_pct": 30.8
   },
   "experience_months": 0
 }

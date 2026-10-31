@@ -29,7 +29,8 @@ st.markdown("""<div class="main-header">
     </div>
     """, unsafe_allow_html=True)
 
-st.button("🚀 Start Analyzing Your Resume", use_container_width=True,type="primary")
+if st.button("🚀 Start Analyzing Your Resume", use_container_width=True,type="primary"):
+    st.switch_page("pages/ats_scorer.py")
 st.markdown("---")
 st.markdown("# ✨ Key Features")
 

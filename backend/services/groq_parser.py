@@ -2,17 +2,22 @@ from groq import Groq
 import json
 from core.config import GROQ_API_KEY
 import re
+import logging
 
+logging.basicConfig(level=logging.INFO,filename="llm_call.log")
 GROQ_MODEL="openai/gpt-oss-120b"
-
+logger = logging.getLogger("groq_parser")
 _client=None
 def _get_client():
     global _client
     if _client is None:
+        logger.info("Initializing Groq client singleton...")
         api_key=GROQ_API_KEY
         if api_key is None:
+            logger.critical("Initialization failed: GROQ_API_KEY is not defined!")
             raise ValueError("Groq api key is not define")
         _client=Groq(api_key=api_key)
+        logger.info("Groq client initialized successfully.")
     return _client
 
 RESUME_SYSTEM_PROMPT = (
@@ -69,6 +74,7 @@ Resume Text:
 {raw_text}"""
 
 def _call_llm(client:Groq,system_prompt:str,user_prompt:str)->str:
+    logger.info(f"Dispatching API call to model: {GROQ_MODEL}")
     responce=client.chat.completions.create(
         model=GROQ_MODEL,
         messages=[{"role":"system","content":system_prompt},
@@ -82,40 +88,103 @@ def _call_llm(client:Groq,system_prompt:str,user_prompt:str)->str:
     return responce.choices[0].message.content.strip()
 
 def _try_extract_json(text):
+    logger.info("Attempting regex JSON extraction block...")
     try:
         #clean text remove \uf0b7
         cleaned_text=text.replace('\uf0b7',"")
         #extraction
         json_match=re.search(r'\{.*\}', cleaned_text, re.DOTALL)
 
-        if not json:
+        if not json_match:
+            logger.warning("Regex parsing mismatch: No valid opening/closing structural brackets found.")
             raise ValueError("No JSON object extracted")
         json_string=json_match.group(0)
+        logger.debug(f"Extracted substring slice for target parsing: {json_string[:100]}...")
         parsed_data=json.loads(json_string)
+        logger.info("JSON successfully deserialised.")
         return parsed_data
     except json.JSONDecodeError as je:
-        print("JSON Extraction error")
+        logger.error(f"JSON parsing structural error: Content is syntactically invalid code. Error: {str(je)}")
+        logger.debug(f"Failed block snippet: \n{text[:300]}")
         return None
     except Exception as e:
-        print(f"An Unexpected error occured {e}")
+        logger.error(f"An unexpected parsing exception occurred: {str(e)}", exc_info=True)
         return None
+def _validate_resume_result(result: dict) -> dict:
+    logger.info("Beginning execution schema constraint checks...")
+    defaults = {
+        "name": "",
+        "email": None,
+        "phone": None,
+        "linkedin": None,
+        "github": None,
+        "professional_summary": "",
+        "skills": [],
+        "experience": [],
+        "education": [],
+        "certifications": [],
+        "projects": [],
+        "action_verbs": [],
+        "keywords": [],
+    }
+    for key, default in defaults.items():
+        if key not in result or result[key] is None:
+            result[key] = default
+            
+        # Ensure list fields are actually lists
+        if isinstance(default, list) and not isinstance(result[key], list):
+            result[key] = default
 
+    #Validate experience entries
+    for exp in result.get("experience", []):
+        if not isinstance(exp, dict):
+            continue
+        exp.setdefault("job_title", "")
+        exp.setdefault("company", "")
+        exp.setdefault("start_date", "")
+        exp.setdefault("end_date", "")
+        exp.setdefault("duration_months", 0)
+        exp.setdefault("description", "")
+        #Ensure duration_months is an int
+        try:
+            exp["duration_months"] = int(exp["duration_months"])
+        except (ValueError, TypeError):
+            exp["duration_months"] = 0
+
+    #Validate project entries
+    for proj in result.get("projects", []):
+        if not isinstance(proj, dict):
+            continue
+        proj.setdefault("title", "")
+        proj.setdefault("description", "")
+        proj.setdefault("technologies", [])
+    logger.info("Schema integrity checks successfully completed.")
+    logger.info(f"final result {result}")
+    return result
 def parse_resume(raw_text):
+    logger.info("--- START RESUME PARSING WORKFLOW ---")
     _client=_get_client()
     prompt=RESUME_USER_PROMPT.format(raw_text=raw_text)
     raw_res=_call_llm(_client,system_prompt=RESUME_SYSTEM_PROMPT,user_prompt=prompt)
+    #first attempt
+    logger.info("Executing Primary Inference Pass (Attempt #1)...")
     result=_try_extract_json(text=raw_res)
 
-    if result is None:
-        strict_prompt = (
+    if result is not None:
+        logger.info("Primary pass successful. Commencing schema evaluation...")
+        return _validate_resume_result(result=result)
+    #second attempt
+    logger.warning("Primary pass failed to return parseable JSON. Engaging Self-Correction Pipeline (Attempt #2)...")
+    strict_prompt = (
         "Your previous response was not valid JSON. "
         "Return ONLY the raw JSON object, no markdown, no explanation, no code fences.\n\n"
         + prompt)
-        raw_res=_call_llm(_client,system_prompt=RESUME_SYSTEM_PROMPT,user_prompt=prompt)
-        result=_try_extract_json(text=raw_res)
-        if result is None:
-            raise ValueError("Groq gives invalid responces")
-    return result
+    raw_res=_call_llm(_client,system_prompt=RESUME_SYSTEM_PROMPT,user_prompt=strict_prompt)
+    result=_try_extract_json(text=raw_res)
+    if result is not None:
+        logger.info("second attempt is sucessfully completed. result is passing to schema validation")
+        return _validate_resume_result(result=result)
+    raise ValueError( f"Groq returned unparseable response after retry. Raw response:\n{raw_res[:500]}")
 #JD parsing
 JD_SYSTEM_PROMPT = (
     "You are a job description parser. Extract information and "
@@ -149,7 +218,7 @@ def parse_jd(raw_text):
         strict_prompt = (
         "Your previous response was not valid JSON. "
         "Return ONLY the raw JSON object, no markdown, no explanation, no code fences.\n\n"
-        + prompt
+        + jd_prompt
     )
         responce=_call_llm(client=_client,system_prompt=JD_SYSTEM_PROMPT,user_prompt=strict_prompt)
         result=_try_extract_json(responce)

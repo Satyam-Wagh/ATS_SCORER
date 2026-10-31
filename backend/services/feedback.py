@@ -12,9 +12,7 @@ def analyse_issue(parsed_resume:dict,text:str,skill_validation:dict,projetcs:lis
 
     #create the experince text for re pattern
     experience_text=""
-    for i in parsed_resume.get("experience",''):
-        experience_text+=i+'\n'
-    experience_text=experience_text.strip()
+    experience_text = '\n'.join(e.get('description', '') for e in exp_entries).strip()
 
     #1) missing projects
     resume_lower=text.strip()
